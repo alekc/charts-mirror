@@ -19,3 +19,4 @@ jobs:
       - name: Sync repository
         run: |
           helm-mirror https://charts.alekc.dev/ $(pwd)/pages/ -a
+          ls -la pages/
