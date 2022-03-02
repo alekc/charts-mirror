@@ -23,7 +23,7 @@ jobs:
           rm -rf build
       - name: Sync repository
         run: |
-          helm-mirror https://charts35.alekc.dev/ $(pwd)/docs/ -a
+          helm-mirror https://charts-backup.alekc.dev/ $(pwd)/docs/ -a
       - name: Check for changes
         run: |
           if git diff --exit-code; then
