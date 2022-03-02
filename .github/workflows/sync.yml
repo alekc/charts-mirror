@@ -9,10 +9,10 @@ jobs:
       - uses: actions/checkout@v1
       - name: Install helm mirror
         run: |
-          wget https://github.com/openSUSE/helm-mirror/releases/download/v0.3.1/helm-mirror-linux.tgz
-          tar xzvf helm-mirror-linux.tgz
+          wget https://github.com/alekc-forks/helm-mirror/releases/download/v0.3.2/helm-mirror_0.3.2_linux_amd64.tar.gz
+          tar xzvf *.tgz
           mv mirror/bin/helm-mirror /usr/local/bin
           rm -rf mirror
       - name: Sync repository
         run: |
-          helm-mirror https://charts.alekc.dev/ $(pwd)/pages/
+          helm-mirror https://charts.alekc.dev/ $(pwd)/pages/ -a
