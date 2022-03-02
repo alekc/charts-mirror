@@ -1,0 +1,14 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install helm mirror
+        run: |
+          wget https://github.com/openSUSE/helm-mirror/releases/download/v0.3.1/helm-mirror-linux.tgz
+          tar xzvf helm-mirror-linux.tgz
+          ls -la
