@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+  schedule:
+    - cron: "*/10 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: wip
+      - name: Install helm mirror
+        run: |
+          mkdir build
+          cd build
+          wget https://github.com/alekc-forks/helm-mirror/releases/download/v0.3.2/helm-mirror_0.3.2_linux_amd64.tar.gz
+          tar xzvf helm-mirror_0.3.2_linux_amd64.tar.gz
+          mv helm-mirror /usr/local/bin/
+          cd ..
+          rm -rf build
+      - name: Sync repository
+        run: |
+          helm-mirror https://charts35.alekc.dev/ $(pwd)/docs/ -a
+      - name: Check for changes
+        run: |
+          if git diff --exit-code; then
+            echo "::set-output name=changes_exist::true"
+          else
+            echo "::set-output name=changes_exist::false"
+          fi
+        id: check-changes
+      - name: Commit and Push
+        if: ${{ steps.check-changes.outputs.changes_exist == 'true' }}
+        run: |
+          git config --global user.email "syncbot@alekc.dev"
+          git config --global user.name "Sync Bot"
+          git add docs
+          git commit -m "update docs on $(date)"
+          git push
