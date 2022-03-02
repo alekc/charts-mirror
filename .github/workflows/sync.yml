@@ -1,6 +1,7 @@
 name: CI
 
 on:
+  push:
   schedule:
     - cron: "*/10 * * * *"
 
@@ -22,7 +23,7 @@ jobs:
           rm -rf build
       - name: Sync repository
         run: |
-          helm-mirror https://charts35.alekc.dev/ $(pwd)/pages/ -a
+          helm-mirror https://charts35.alekc.dev/ $(pwd)/docs/ -a
       - name: Check for changes
         run: |
           if git diff --exit-code; then
@@ -36,6 +37,6 @@ jobs:
         run: |
           git config --global user.email "syncbot@alekc.dev"
           git config --global user.name "Sync Bot"
-          git add pages
-          git commit -m "update pages on $(date)"
+          git add docs
+          git commit -m "update docs on $(date)"
           git push
