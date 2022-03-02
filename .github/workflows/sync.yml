@@ -19,7 +19,7 @@ jobs:
       - name: Sync repository
         run: |
           helm-mirror https://charts35.alekc.dev/ $(pwd)/pages/ -a
-      - name: check for changes
+      - name: Check for changes
         run: |
           if git diff --exit-code; then
             echo "::set-output name=changes_exist::true"
@@ -30,11 +30,8 @@ jobs:
       - name: Commit and Push
         if: ${{ steps.check-changes.outputs.changes_exist == 'true' }}
         run: |
-          echo "Changing"
-
-#      - name: Commit
-#        run: |
-#          git config --global user.email "syncbot@alekc.dev"
-#          git config --global user.name "Sync Bot"
-#          git add pages
-#          git commit -m "update pages on $()"
+          git config --global user.email "syncbot@alekc.dev"
+          git config --global user.name "Sync Bot"
+          git add pages
+          git commit -m "update pages on $(date)"
+          git push
