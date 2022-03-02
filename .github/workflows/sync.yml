@@ -10,7 +10,7 @@ jobs:
       - name: Install helm mirror
         run: |
           wget https://github.com/alekc-forks/helm-mirror/releases/download/v0.3.2/helm-mirror_0.3.2_linux_amd64.tar.gz
-          tar xzvf *.tgz
+          tar xzvf helm-mirror_0.3.2_linux_amd64.tar.gz
           mv mirror/bin/helm-mirror /usr/local/bin
           rm -rf mirror
       - name: Sync repository
