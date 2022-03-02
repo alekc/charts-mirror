@@ -2,8 +2,8 @@ name: CI
 
 on:
   push:
-  schedule:
-    - cron: "*/10 * * * *"
+#  schedule:
+#    - cron: "*/10 * * * *"
 
 jobs:
   build:
@@ -36,15 +36,13 @@ jobs:
         run: |
           git diff
           git status
+          echo $(git diff --exit-code)
           echo ${{ steps.check-changes.outputs.changes_exist == 'true' }}
+          echo ${{ steps.check-changes.outputs.changes_exist }}
       - name: Commit and Push
         if: ${{ steps.check-changes.outputs.changes_exist == 'true' }}
         run: |
-          git config --global user.email "syncbot@alekc.dev"
-          git config --global user.name "Sync Bot"
-          git add docs
-          git commit -m "update docs on $(date)"
-          git push
+          echo "wtf"
 #      - name: Commit and Push
 #        if: ${{ steps.check-changes.outputs.changes_exist == 'true' }}
 #        run: |
