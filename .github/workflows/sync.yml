@@ -13,4 +13,6 @@ jobs:
           tar xzvf helm-mirror-linux.tgz
           mv mirror/bin/helm-mirror /usr/local/bin
           rm -rf mirror
-          ls -la
+      - name: Sync repository
+        run: |
+          helm-mirror https://charts.alekc.dev/ pages/
