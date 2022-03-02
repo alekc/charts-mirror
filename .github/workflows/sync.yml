@@ -2,7 +2,7 @@ name: CI
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/10 * * * *"
 
 jobs:
   build:
@@ -23,26 +23,10 @@ jobs:
       - name: Sync repository
         run: |
           helm-mirror https://charts-backup.alekc.dev/ $(pwd)/docs/ -a
-      - name: Check for changes
-        run: |
-          git status
-          git diff
-          git update-index --refresh
-          if git diff-index --quiet HEAD --; then
-            echo "::set-output name=changes_exist::true"
-            echo "there are some changes"
-            git diff-index --quiet HEAD --
-            echo $?
-          else
-            echo "::set-output name=changes_exist::false"
-          fi
-        id: check-changes
       - name: Commit and Push
-        if: ${{ steps.check-changes.outputs.changes_exist == 'true' }}
         run: |
-          echo ${{ steps.check-changes.outputs.changes_exist == 'true' }}
           git config --global user.email "syncbot@alekc.dev"
           git config --global user.name "Sync Bot"
           git add docs
-          git commit -m "update docs on $(date)"
-          git push
+          git update-index --refresh
+          git diff-index --quiet HEAD || (git commit -a -m'[bot] update files' --allow-empty && git push)
