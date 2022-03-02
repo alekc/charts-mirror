@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: master
+          ref: test-cicd
       - name: Install helm mirror
         run: |
           mkdir build
@@ -32,6 +32,11 @@ jobs:
             echo "::set-output name=changes_exist::false"
           fi
         id: check-changes
+      - name: test
+        run: |
+          git diff
+          git status
+          echo ${{ steps.check-changes.outputs.changes_exist == 'true' }}
       - name: Commit and Push
         if: ${{ steps.check-changes.outputs.changes_exist == 'true' }}
         run: |
@@ -40,3 +45,11 @@ jobs:
           git add docs
           git commit -m "update docs on $(date)"
           git push
+#      - name: Commit and Push
+#        if: ${{ steps.check-changes.outputs.changes_exist == 'true' }}
+#        run: |
+#          git config --global user.email "syncbot@alekc.dev"
+#          git config --global user.name "Sync Bot"
+#          git add docs
+#          git commit -m "update docs on $(date)"
+#          git push
