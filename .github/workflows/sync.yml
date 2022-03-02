@@ -22,12 +22,13 @@ jobs:
       - name: check for changes
         run: |
           if git diff --exit-code; then
-            echo "::set-env name=changes_exist::true"
+            echo "::set-output name=changes_exist::true"
           else
-            echo "::set-env name=changes_exist::false"
+            echo "::set-output name=changes_exist::false"
           fi
+        id: check-changes
       - name: Commit and Push
-        if: ${{ env.changes_exist == 'true' }}
+        if: ${{ steps.check-changes.outputs.changes_exist == 'true' }}
         run: |
           echo "Changing"
 
