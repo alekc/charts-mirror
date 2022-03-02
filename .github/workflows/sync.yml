@@ -2,7 +2,7 @@ name: CI
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   build:
@@ -25,6 +25,8 @@ jobs:
           helm-mirror https://charts-backup.alekc.dev/ $(pwd)/docs/ -a
       - name: Check for changes
         run: |
+          git status
+          git diff
           git update-index --refresh
           if git diff-index --quiet HEAD --; then
             echo "::set-output name=changes_exist::true"
