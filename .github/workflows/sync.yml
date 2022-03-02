@@ -26,7 +26,7 @@ jobs:
           helm-mirror https://charts-backup.alekc.dev/ $(pwd)/docs/ -a
       - name: Check for changes
         run: |
-          if git diff --exit-code; then
+          if git diff-index --quiet HEAD --; then
             echo "::set-output name=changes_exist::true"
           else
             echo "::set-output name=changes_exist::false"
@@ -34,9 +34,7 @@ jobs:
         id: check-changes
       - name: test
         run: |
-          git diff
           git status
-          echo $(git diff --exit-code)
           echo ${{ steps.check-changes.outputs.changes_exist == 'true' }}
           echo ${{ steps.check-changes.outputs.changes_exist }}
       - name: Commit and Push
