@@ -15,4 +15,4 @@ jobs:
           rm -rf mirror
       - name: Sync repository
         run: |
-          helm-mirror https://charts.alekc.dev/ ./pages/
+          helm-mirror https://charts.alekc.dev/ $(pwd)/pages/
