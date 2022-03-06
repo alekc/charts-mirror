@@ -139,6 +139,17 @@ entries:
     urls:
     - kpubber-0.0.1.tgz
     version: 0.0.1
+  kube-prometheus-stack-crd:
+  - apiVersion: v2
+    appVersion: 0.54.1
+    created: "2022-03-06T19:09:43.847177Z"
+    description: Custom Resource Definitions for kubernetes prometheus stack
+    digest: c2ef27da8dd466986a9464c39c77b408f804bc7ebd33d4ce91948337e1ce2733
+    name: kube-prometheus-stack-crd
+    type: application
+    urls:
+    - kube-prometheus-stack-crd-33.2.0.tgz
+    version: 33.2.0
   local-storage:
   - apiVersion: v2
     created: "2022-03-01T23:09:43.498461Z"
