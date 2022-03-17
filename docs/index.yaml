@@ -14,6 +14,57 @@ entries:
   gitlab-runner-operator:
   - annotations:
       artifacthub.io/changes: |
+        - [Changed] Synced settings to the latest version of gitlab-runner
+        - [Changed] Added missing kubernetes executor configuration parameters to crd
+        - [Changed] bumped operator version to v1.2.1
+      artifacthub.io/crds: |
+        - kind: Runner
+          version: gitlab.k8s.alekc.dev/v1beta1
+          name: Runner
+          displayName: Gitlab Runner
+      artifacthub.io/crdsExamples: |
+        - apiVersion: gitlab.k8s.alekc.dev/v1beta1
+          kind: Runner
+          metadata:
+            name: runner01
+          spec:
+            concurrent: 1
+            log_level: info
+            registration_config:
+              tag_list:
+                - test-gitlab-runner
+              token: xxxxxx
+      artifacthub.io/images: |
+        - name: operator
+          image: ghcr.io/alekc/gitlab-runner-operator
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Operator source
+          url: https://github.com/alekc/gitlab-runner-operator
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/gitlab-runner-operator
+      artifacthub.io/maintainers: |
+        - name: Alexander Chernov
+          email: alexander@chernov.it
+      artifacthub.io/operator: "true"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: v1.2.1
+    created: "2022-03-17T21:08:25.839084954Z"
+    dependencies:
+    - condition: cert-manager.install
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.7.1
+    description: An operator managing gitlab runners
+    digest: e2fffdfa13bdbb530b4d4534b44b3d4ffb9c024ce63292686c84527863944b6a
+    name: gitlab-runner-operator
+    type: application
+    urls:
+    - gitlab-runner-operator-1.4.0.tgz
+    version: 1.4.0
+  - annotations:
+      artifacthub.io/changes: |
         - [Changed] Dropped hard requirement for cert-manager. Now tls certificates will be created automatically as long as `webhook.certType` is `self-signed`
       artifacthub.io/crds: |
         - kind: Runner
