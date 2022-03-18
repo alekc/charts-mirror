@@ -14,9 +14,9 @@ entries:
   gitlab-runner-operator:
   - annotations:
       artifacthub.io/changes: |
-        - [Changed] Synced settings to the latest version of gitlab-runner
-        - [Changed] Added missing kubernetes executor configuration parameters to crd
-        - [Changed] bumped operator version to v1.2.1
+        - "[Changed] Synced settings to the latest version of gitlab-runner"
+        - "[Changed] Added missing kubernetes executor configuration parameters to crd"
+        - "[Changed] bumped operator version to v1.2.1"
       artifacthub.io/crds: |
         - kind: Runner
           version: gitlab.k8s.alekc.dev/v1beta1
@@ -50,14 +50,14 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.2.1
-    created: "2022-03-17T21:08:25.839084954Z"
+    created: "2022-03-18T07:34:14.632712Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
       repository: https://charts.jetstack.io
       version: v1.7.1
     description: An operator managing gitlab runners
-    digest: e2fffdfa13bdbb530b4d4534b44b3d4ffb9c024ce63292686c84527863944b6a
+    digest: f96efecefcb133c10456152101de15086649f01a1875712cb2f11a18ee58bc3e
     name: gitlab-runner-operator
     type: application
     urls:
