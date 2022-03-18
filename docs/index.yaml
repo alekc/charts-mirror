@@ -65,7 +65,7 @@ entries:
     version: 1.4.0
   - annotations:
       artifacthub.io/changes: |
-        - [Changed] Dropped hard requirement for cert-manager. Now tls certificates will be created automatically as long as `webhook.certType` is `self-signed`
+        - "[Changed] Dropped hard requirement for cert-manager. Now tls certificates will be created automatically as long as `webhook.certType` is `self-signed`"
       artifacthub.io/crds: |
         - kind: Runner
           version: gitlab.k8s.alekc.dev/v1beta1
@@ -101,14 +101,14 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.1.0
-    created: "2022-03-16T18:15:01.123593238Z"
+    created: "2022-03-18T12:36:39.474843Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
       repository: https://charts.jetstack.io
       version: v1.7.1
     description: An operator managing gitlab runners
-    digest: 32c509a77c093d9ef2d30ca1bebbb4c7fadb78f58e4044a65c20c2cd6f2d60f7
+    digest: 7d1fcf64b77b712db4b39d5949a3b535a7f52e8b62acc3a846371a51b7700598
     name: gitlab-runner-operator
     type: application
     urls:
