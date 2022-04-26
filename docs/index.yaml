@@ -262,4 +262,15 @@ entries:
     urls:
     - local-storage-0.3.1.tgz
     version: 0.3.1
+  phpmyadmin:
+  - apiVersion: v2
+    appVersion: 5.1.3-apache
+    created: "2022-04-26T08:56:41.628750373Z"
+    description: A Helm chart for official phpmyadmin docker image
+    digest: cfdebe59b38dbfc1ef1bf088bbe1151d1bbae3ef51f704bcac92af7a2e1f57e0
+    name: phpmyadmin
+    type: application
+    urls:
+    - phpmyadmin-0.1.1.tgz
+    version: 0.1.1
 generated: "2022-03-18T13:05:05.725485Z"
