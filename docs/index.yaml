@@ -273,4 +273,15 @@ entries:
     urls:
     - phpmyadmin-0.1.1.tgz
     version: 0.1.1
+  prowlarr:
+  - apiVersion: v2
+    appVersion: 0.3.0-develop
+    created: "2022-05-18T21:50:59.905274798Z"
+    description: Linux Server prowlarr helm chart
+    digest: 4cfefe07202552a8657a26d6b9112c800561a3446516d2a2859564fc564aadea
+    name: prowlarr
+    type: application
+    urls:
+    - prowlarr-0.1.0.tgz
+    version: 0.1.0
 generated: "2022-03-18T13:05:05.725485Z"
