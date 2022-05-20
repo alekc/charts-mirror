@@ -284,4 +284,15 @@ entries:
     urls:
     - prowlarr-0.1.0.tgz
     version: 0.1.0
+  sonarr:
+  - apiVersion: v2
+    appVersion: nightly-3.0.8.1520
+    created: "2022-05-20T09:20:02.07289019Z"
+    description: A Sonarr Helm chart for Kubernetes
+    digest: e02b127f3f7ff548ef016bb6aa6831c8dba608fbe68b595ffa03d2432c329c50
+    name: sonarr
+    type: application
+    urls:
+    - sonarr-0.1.0.tgz
+    version: 0.1.0
 generated: "2022-03-18T13:05:05.725485Z"
