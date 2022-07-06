@@ -3,7 +3,7 @@ entries:
   caddy:
   - apiVersion: v2
     appVersion: 2.4.6
-    created: "2022-03-18T13:05:06.009036Z"
+    created: "2022-07-06T15:53:29.692435+01:00"
     description: A Helm chart for Kubernetes
     digest: 6f30a6d15f2642c6ffe4758950d452e20a7fa3e56ab22079ebda5c5ad31437c9
     name: caddy
@@ -14,8 +14,8 @@ entries:
   gitlab-runner-operator:
   - annotations:
       artifacthub.io/changes: |
-        - [Changed] Dropped hard requirement for cert-manager. Now tls certificates will be created automatically as long as `webhook.certType` is `self-signed`
-        - [Changed] Bumped version of gitlab operator to 1.3.0
+        - "[Changed] Bumped version of gitlab operator to 1.3.0"
+        - "[Added] Added support for environmental variables for individual runners"
       artifacthub.io/crds: |
         - kind: Runner
           version: gitlab.k8s.alekc.dev/v1beta1
@@ -49,14 +49,14 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2022-07-05T21:05:23.205181103Z"
+    created: "2022-07-06T15:53:31.730393+01:00"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
       repository: https://charts.jetstack.io
       version: v1.7.1
     description: An operator managing gitlab runners
-    digest: d73fbe78c55d935774e6742b796e834dcd018a0e805c25c622ab5dfcb131ca4f
+    digest: b8f2112ddee06a3eb4a61a8a648bd1901eeab0e2fc77d65006eff163417fd8c1
     name: gitlab-runner-operator
     type: application
     urls:
@@ -100,7 +100,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.2.1
-    created: "2022-03-18T13:05:08.053898Z"
+    created: "2022-07-06T15:53:31.42412+01:00"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -151,7 +151,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.1.0
-    created: "2022-03-18T13:05:08.00812Z"
+    created: "2022-07-06T15:53:30.864252+01:00"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -203,7 +203,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.1.0
-    created: "2022-03-18T13:05:07.858202Z"
+    created: "2022-07-06T15:53:30.529003+01:00"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -218,7 +218,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2022-03-18T13:05:07.328553Z"
+    created: "2022-07-06T15:53:30.270647+01:00"
     description: An operator managing gitlab runners
     digest: a6e9635da339b96a461fae1b6a7abae1275c634c82b8bca488059c447d1dd95b
     name: gitlab-runner-operator
@@ -228,7 +228,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2022-03-18T13:05:06.680235Z"
+    created: "2022-07-06T15:53:30.071824+01:00"
     description: An operator managing gitlab runners
     digest: 6064f2c49b39e7e651ebb7b81b6595a7436bda08ee76456cd7b7f96498305df2
     name: gitlab-runner-operator
@@ -238,7 +238,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2022-03-18T13:05:06.239106Z"
+    created: "2022-07-06T15:53:29.903898+01:00"
     description: An operator for gitlab runners
     digest: 6a9c2c8bd14261dfa597ff4f51d1d9e271d11ad5d56b2b4745d256556c7cd366
     name: gitlab-runner-operator
@@ -249,7 +249,7 @@ entries:
   kpubber:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2022-03-18T13:05:09.509326Z"
+    created: "2022-07-06T15:53:32.44658+01:00"
     description: Annotation service for tagging kubernetes nodes with their public
       ip
     digest: d98e7b7b4d23ec32f154a0844797a378de1c3e1b702d2402dc5ff575cfcf6d74
@@ -260,7 +260,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2022-03-18T13:05:09.199359Z"
+    created: "2022-07-06T15:53:32.281489+01:00"
     description: Annotation service for tagging kubernetes nodes with their public
       ip
     digest: 49807cb88fa813d7d63d350827f6f8797ba3c875bc2853e3fae15f539bb10caa
@@ -271,7 +271,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2022-03-18T13:05:08.928237Z"
+    created: "2022-07-06T15:53:32.105497+01:00"
     description: Annotation service for tagging kubernetes nodes with their public
       ip
     digest: 34897ad4c6b9fa4e970f660e92928e4315980d4e9dea817bdd4915a3751959d9
@@ -282,7 +282,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2022-03-18T13:05:08.594248Z"
+    created: "2022-07-06T15:53:31.901481+01:00"
     description: Annotation service for tagging kubernetes nodes with their public
       ip
     digest: f5cd1ff3394561bf9e14e7e0b99a6f349bcb218205f4d477f215edbf9fef5906
@@ -294,7 +294,7 @@ entries:
   kube-prometheus-stack-crd:
   - apiVersion: v2
     appVersion: 0.54.1
-    created: "2022-03-18T13:05:09.574193Z"
+    created: "2022-07-06T15:53:32.764821+01:00"
     description: Custom Resource Definitions for kubernetes prometheus stack
     digest: c2ef27da8dd466986a9464c39c77b408f804bc7ebd33d4ce91948337e1ce2733
     name: kube-prometheus-stack-crd
@@ -304,7 +304,7 @@ entries:
     version: 33.2.0
   local-storage:
   - apiVersion: v2
-    created: "2022-03-18T13:05:09.937899Z"
+    created: "2022-07-06T15:53:32.947097+01:00"
     description: A Helm chart for Kubernetes
     digest: c62c6b3495db86c553e794e2531fc9cd44b1131bc049aab86a21da031dbdf683
     name: local-storage
@@ -315,7 +315,7 @@ entries:
   phpmyadmin:
   - apiVersion: v2
     appVersion: 5.1.3-apache
-    created: "2022-04-26T08:56:41.628750373Z"
+    created: "2022-07-06T15:53:33.145577+01:00"
     description: A Helm chart for official phpmyadmin docker image
     digest: cfdebe59b38dbfc1ef1bf088bbe1151d1bbae3ef51f704bcac92af7a2e1f57e0
     name: phpmyadmin
@@ -326,7 +326,7 @@ entries:
   prowlarr:
   - apiVersion: v2
     appVersion: 0.3.0-develop
-    created: "2022-05-18T21:50:59.905274798Z"
+    created: "2022-07-06T15:53:33.301304+01:00"
     description: Linux Server prowlarr helm chart
     digest: 4cfefe07202552a8657a26d6b9112c800561a3446516d2a2859564fc564aadea
     name: prowlarr
@@ -337,7 +337,7 @@ entries:
   sonarr:
   - apiVersion: v2
     appVersion: nightly-3.0.8.1520
-    created: "2022-05-20T09:20:02.07289019Z"
+    created: "2022-07-06T15:53:33.461782+01:00"
     description: A Sonarr Helm chart for Kubernetes
     digest: e02b127f3f7ff548ef016bb6aa6831c8dba608fbe68b595ffa03d2432c329c50
     name: sonarr
@@ -345,4 +345,4 @@ entries:
     urls:
     - sonarr-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-18T13:05:05.725485Z"
+generated: "2022-07-06T15:53:29.243946+01:00"
