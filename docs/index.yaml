@@ -293,6 +293,16 @@ entries:
     version: 0.0.1
   kube-prometheus-stack-crd:
   - apiVersion: v2
+    appVersion: 0.58.0
+    created: "2022-08-29T18:21:58.401939457Z"
+    description: Custom Resource Definitions for kubernetes prometheus stack
+    digest: e7dc560c889f65a80cc35d94f835a86a5d330d9532c0b68f8eb77799eee8cadc
+    name: kube-prometheus-stack-crd
+    type: application
+    urls:
+    - kube-prometheus-stack-crd-39.0.0.tgz
+    version: 39.0.0
+  - apiVersion: v2
     appVersion: 0.54.1
     created: "2022-07-06T15:53:32.764821+01:00"
     description: Custom Resource Definitions for kubernetes prometheus stack
