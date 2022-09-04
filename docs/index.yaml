@@ -344,6 +344,17 @@ entries:
     urls:
     - prowlarr-0.1.0.tgz
     version: 0.1.0
+  radarr:
+  - apiVersion: v2
+    appVersion: release-4.1.0.6175
+    created: "2022-09-03T22:13:18.763795894Z"
+    description: A Radarr Helm chart for Kubernetes
+    digest: 6e1710c8472e0a248bb379ef382db551cd8695e19daf758c3958bc1ed4e2536e
+    name: radarr
+    type: application
+    urls:
+    - radarr-0.1.0.tgz
+    version: 0.1.0
   sonarr:
   - apiVersion: v2
     appVersion: nightly-3.0.8.1520
