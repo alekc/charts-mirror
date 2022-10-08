@@ -1,6 +1,30 @@
 apiVersion: v1
 entries:
   caddy:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed] Bumped caddy version to 2.6.1"
+        - "[Changed] Moved http_port to globals"
+      artifacthub.io/images: |
+        - name: caddy
+          image: caddy
+      artifacthub.io/links: |
+        - name: Caddy home
+          url: https://github.com/caddyserver/caddy
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/caddy
+    apiVersion: v2
+    appVersion: 2.6.1
+    created: "2022-10-07T13:27:37.099296675Z"
+    description: |
+      The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
+    digest: 9b1e4970eaac270dcf0175ff35bf9d1b14022d262ed4e4c42069df5a1674dcf6
+    icon: https://camo.githubusercontent.com/05fad9fd69ed6a92cae6426996adfb868145028c031817ad40e7f23ddf53ac17/68747470733a2f2f63616464797365727665722e636f6d2f7265736f75726365732f696d616765732f66617669636f6e2e706e67
+    name: caddy
+    type: application
+    urls:
+    - caddy-0.2.0.tgz
+    version: 0.2.0
   - apiVersion: v2
     appVersion: 2.4.6
     created: "2022-07-06T15:53:29.692435+01:00"
@@ -34,7 +58,7 @@ entries:
     type: application
     urls:
     - ddclient-0.1.1.tgz
-    version: 0.1.1  
+    version: 0.1.1
   gitlab-runner-operator:
   - annotations:
       artifacthub.io/changes: |
@@ -269,6 +293,31 @@ entries:
     type: application
     urls:
     - gitlab-runner-operator-0.1.0.tgz
+    version: 0.1.0
+  home-assistant:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed] First Version"
+      artifacthub.io/images: |
+        - name: home-assistant
+          image: homeassistant/home-assistant
+      artifacthub.io/links: |
+        - name: Home assistant source repo
+          url: https://github.com/home-assistant
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/home-assistant
+    apiVersion: v2
+    appVersion: "2022.10"
+    created: "2022-10-07T14:23:03.275168564Z"
+    description: "Home Assistant is an open source home automation that puts local
+      control and privacy first. \nPowered by a worldwide community of tinkerers and
+      DIY enthusiasts. \nPerfect to run on a Raspberry Pi or a local server.\n"
+    digest: cd9c24b5b08c61ec4830384e9b33ae5fc52c99454b269fd2e2c59c7a06d38c73
+    icon: https://github.com/home-assistant/assets/blob/master/logo/logo-pretty.png?raw=true
+    name: home-assistant
+    type: application
+    urls:
+    - home-assistant-0.1.0.tgz
     version: 0.1.0
   kpubber:
   - apiVersion: v2
