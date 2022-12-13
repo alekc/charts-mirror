@@ -449,6 +449,17 @@ entries:
     urls:
     - prowlarr-0.1.0.tgz
     version: 0.1.0
+  qbittorrent:
+  - apiVersion: v2
+    appVersion: 4.4.2
+    created: "2022-12-13T10:20:19.589054505Z"
+    description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
+    digest: c84afd2eeb279a1bc15f940a57b764880d37061cb8f93f0458afdc2306afc393
+    name: qbittorrent
+    type: application
+    urls:
+    - qbittorrent-0.1.0.tgz
+    version: 0.1.0
   radarr:
   - apiVersion: v2
     appVersion: release-4.1.0.6175
