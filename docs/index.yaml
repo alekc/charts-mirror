@@ -492,6 +492,27 @@ entries:
     - radarr-0.1.0.tgz
     version: 0.1.0
   sonarr:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed] Switched channel to release"
+        - "[Changed] Bumped version to 3.0.9.1549"
+      artifacthub.io/images: |
+        - name: sonarr
+          image: hotio/sonarr
+      artifacthub.io/links: |
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/sonarr
+    apiVersion: v2
+    appVersion: release-3.0.9.1549
+    created: "2022-12-25T17:02:19.540490978Z"
+    description: A Sonarr Helm chart for Kubernetes
+    digest: c3f19782626b61578c50fea2ee0280c1d2ab391a30aee3a9047a903729b7a377
+    icon: https://avatars.githubusercontent.com/u/1082903
+    name: sonarr
+    type: application
+    urls:
+    - sonarr-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: nightly-3.0.8.1520
     created: "2022-07-06T15:53:33.461782+01:00"
