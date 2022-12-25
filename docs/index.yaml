@@ -461,6 +461,26 @@ entries:
     - qbittorrent-0.1.0.tgz
     version: 0.1.0
   radarr:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed] Bumped radarr version to release-4.2.4.6635"
+      artifacthub.io/images: |
+        - name: radarr
+          image: hotio/radarr
+      artifacthub.io/links: |
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/radarr
+    apiVersion: v2
+    appVersion: release-4.2.4.6635
+    created: "2022-12-25T13:45:55.900676409Z"
+    description: A Radarr Helm chart for Kubernetes
+    digest: e1d534f341a09ccbe4464efe2aa8f683a87bb66cc3eac98ad7c93ec3b8d0b5d4
+    icon: https://avatars.githubusercontent.com/u/25025331
+    name: radarr
+    type: application
+    urls:
+    - radarr-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: release-4.1.0.6175
     created: "2022-09-03T22:13:18.763795894Z"
