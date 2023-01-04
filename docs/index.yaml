@@ -523,4 +523,15 @@ entries:
     urls:
     - sonarr-0.1.0.tgz
     version: 0.1.0
+  zzz:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-01-03T16:33:25.222917655Z"
+    description: A Helm chart for Kubernetes
+    digest: f534948b27f58164674933ac86e82f87856fcb1aa2b16f0c4650332795100b8c
+    name: zzz
+    type: application
+    urls:
+    - zzz-0.1.0.tgz
+    version: 0.1.0
 generated: "2022-07-06T15:53:29.243946+01:00"
