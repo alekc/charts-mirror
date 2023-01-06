@@ -3,6 +3,30 @@ entries:
   caddy:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added] Added support for extra volume mounts"
+        - "[Added] Https ports"
+      artifacthub.io/images: |
+        - name: caddy
+          image: caddy
+      artifacthub.io/links: |
+        - name: Caddy home
+          url: https://github.com/caddyserver/caddy
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/caddy
+    apiVersion: v2
+    appVersion: 2.6.2
+    created: "2023-01-05T21:46:59.613855075Z"
+    description: |
+      The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
+    digest: 96f38bc1f2343b3241a43c68760589722e4500ecb0edea84deefd0f238dcde7c
+    icon: https://camo.githubusercontent.com/05fad9fd69ed6a92cae6426996adfb868145028c031817ad40e7f23ddf53ac17/68747470733a2f2f63616464797365727665722e636f6d2f7265736f75726365732f696d616765732f66617669636f6e2e706e67
+    name: caddy
+    type: application
+    urls:
+    - caddy-0.2.2.tgz
+    version: 0.2.2
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed] Bumped caddy version to 2.6.2"
       artifacthub.io/images: |
         - name: caddy
