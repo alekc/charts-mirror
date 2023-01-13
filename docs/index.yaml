@@ -3,6 +3,31 @@ entries:
   browserless:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: usage of toString instead of quote
+      artifacthub.io/images: |
+        - name: browserless-chrome
+          image: browserless/chrome:1.53.0-chrome-stable
+    apiVersion: v2
+    appVersion: 1.53.0
+    created: "2023-01-13T14:40:42.892472583Z"
+    description: A Helm chart for Kubernetes
+    digest: d9bca45b15393651e2d70509822ddbebc277726224862b9195f2c4c3fd9d733b
+    keywords:
+    - chrome
+    - headless
+    - puppeteer
+    maintainers:
+    - email: alexander@chernov.it
+      name: alekc
+      url: https://blog.alekc.org
+    name: browserless
+    type: application
+    urls:
+    - browserless-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: First version
       artifacthub.io/images: |
