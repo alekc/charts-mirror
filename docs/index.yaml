@@ -1,5 +1,31 @@
 apiVersion: v1
 entries:
+  browserless:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: First version
+      artifacthub.io/images: |
+        - name: browserless-chrome
+          image: browserless/chrome:1.53.0-chrome-stable
+    apiVersion: v2
+    appVersion: 1.53.0
+    created: "2023-01-13T14:27:57.144607388Z"
+    description: A Helm chart for Kubernetes
+    digest: 62b2fd7efd552baec709caf9d5e1194a7778dd7e69966643a9e2b45c654a6633
+    keywords:
+    - chrome
+    - headless
+    - puppeteer
+    maintainers:
+    - email: alexander@chernov.it
+      name: alekc
+      url: https://blog.alekc.org
+    name: browserless
+    type: application
+    urls:
+    - browserless-0.1.0.tgz
+    version: 0.1.0
   caddy:
   - annotations:
       artifacthub.io/changes: |
