@@ -82,6 +82,27 @@ entries:
     urls:
     - caddy-0.0.1.tgz
     version: 0.0.1
+  changedetection:
+  - apiVersion: v2
+    appVersion: 0.40.0.4
+    created: "2023-01-12T22:10:29.632192495Z"
+    description: A Helm chart for Kubernetes
+    digest: 8d29fd971963286f1d453dd490c2051bdb749be4f893368faab98c5a815b2fbe
+    name: changedetection
+    type: application
+    urls:
+    - changedetection-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.40.0.4
+    created: "2023-01-12T12:20:10.650224972Z"
+    description: A Helm chart for Kubernetes
+    digest: 85534ad999ffd487eb2021de416990b2d13905867f363c779009a1cca5b742e3
+    name: changedetection
+    type: application
+    urls:
+    - changedetection-0.1.0.tgz
+    version: 0.1.0
   ddclient:
   - annotations:
       artifacthub.io/changes: |
