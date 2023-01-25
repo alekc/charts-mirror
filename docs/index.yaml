@@ -135,6 +135,16 @@ entries:
     version: 0.0.1
   changedetection:
   - apiVersion: v2
+    appVersion: 0.40.1.1
+    created: "2023-01-23T12:13:49.403077371Z"
+    description: A Helm chart for Kubernetes
+    digest: e7546aa57b5b7d9e1b7de2b4cab09c33d90209892b7fdd75a290ff4ea35e4f66
+    name: changedetection
+    type: application
+    urls:
+    - changedetection-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 0.40.0.4
     created: "2023-01-12T22:10:29.632192495Z"
     description: A Helm chart for Kubernetes
