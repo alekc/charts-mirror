@@ -713,6 +713,34 @@ entries:
     urls:
     - qbittorrent-0.1.0.tgz
     version: 0.1.0
+  rabbitmq-cluster-operator:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed] Updated operator version to 2.1.0
+      artifacthub.io/images: |
+        - name: operator
+          image: rabbitmqoperator/cluster-operator
+      artifacthub.io/links: |
+        - name: Operator source
+          url: https://github.com/rabbitmq/cluster-operator
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2023-02-24T19:32:54.928202478Z"
+    description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
+      yaml
+    digest: 7a61392ddb8a835c21651b9af9b54737b63defcf7708864b0b3593e576f11723
+    icon: https://pbs.twimg.com/profile_images/1223261138059780097/eH73w5lN_400x400.jpg
+    maintainers:
+    - email: charts@alekc.dev
+      name: alekc
+      url: https://blog.alekc.org
+    name: rabbitmq-cluster-operator
+    type: application
+    urls:
+    - rabbitmq-cluster-operator-2.1.0.tgz
+    version: 2.1.0
   radarr:
   - annotations:
       artifacthub.io/changes: |
