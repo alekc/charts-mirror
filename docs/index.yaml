@@ -210,6 +210,34 @@ entries:
     urls:
     - changedetection-0.1.0.tgz
     version: 0.1.0
+  code-server:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: First version
+      artifacthub.io/images: |
+        - name: imagee
+          image: ubuntu:latest
+    apiVersion: v2
+    appVersion: 4.10.1
+    created: "2023-03-08T16:11:42.263737739Z"
+    description: Run a VS Code in your cluster
+    digest: ece18b24afca0b5d8200a5728c78c97b4c580669d2a82fbe3552598dcf0d1942
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png
+    keywords:
+    - VS Code
+    - self-hosted
+    - code
+    - vscode
+    maintainers:
+    - email: alexander@chernov.it
+      name: alekc
+      url: https://blog.alekc.org
+    name: code-server
+    type: application
+    urls:
+    - code-server-0.1.0.tgz
+    version: 0.1.0
   ddclient:
   - annotations:
       artifacthub.io/changes: |
