@@ -903,6 +903,29 @@ entries:
   sonarr:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Default rollout behaviour now is Recreate
+        - kind: changed
+          description: Bumped sonarr version to 3.0.10.1566
+      artifacthub.io/images: |
+        - name: sonarr
+          image: hotio/sonarr
+      artifacthub.io/links: |
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/sonarr
+    apiVersion: v2
+    appVersion: release-3.0.10.1566
+    created: "2023-03-12T17:14:55.585905822Z"
+    description: A Sonarr Helm chart for Kubernetes
+    digest: 66b44ecb599250d9f5ca39e6a73a58528924e0ffe3c762e83c159c5b33840e4c
+    icon: https://avatars.githubusercontent.com/u/1082903
+    name: sonarr
+    type: application
+    urls:
+    - sonarr-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed] Switched channel to release"
         - "[Changed] Bumped version to 3.0.9.1549"
       artifacthub.io/images: |
