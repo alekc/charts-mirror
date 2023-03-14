@@ -213,6 +213,35 @@ entries:
   code-server:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: image description
+        - kind: added
+          description: added rbac settings permitting to bind codeserver to a cluster role (i.e. admin)
+      artifacthub.io/images: |
+        - name: image
+          image: linuxserver/code-server
+    apiVersion: v2
+    appVersion: 4.10.1
+    created: "2023-03-14T09:16:11.250110824Z"
+    description: Run a VS Code in your cluster
+    digest: c09f84a4880ad99bd293cb1fd5e81ba3f2f79a026d21d8f00168d7e6734475f2
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png
+    keywords:
+    - VS Code
+    - self-hosted
+    - code
+    - vscode
+    maintainers:
+    - email: alexander@chernov.it
+      name: alekc
+      url: https://blog.alekc.org
+    name: code-server
+    type: application
+    urls:
+    - code-server-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: First version
       artifacthub.io/images: |
