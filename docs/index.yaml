@@ -1045,6 +1045,40 @@ entries:
     urls:
     - sonarr-0.1.0.tgz
     version: 0.1.0
+  speedtest-exporter:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed]: First version"
+      artifacthub.io/images: |
+        - name: speedtest-exporter
+          image: ghcr.io/miguelndecarvalho/speedtest-exporter
+      artifacthub.io/links: |
+        - name: Speedtest exporter source
+          url: https://github.com/MiguelNdeCarvalho/speedtest-exporter
+        - name: Chart source
+          url: https://gitlab.com/alexander-chernov/helm/speedtest-exporter
+      artifacthub.io/maintainers: |
+        - name: Alexander Chernov
+          email: alexander@chernov.it
+    apiVersion: v2
+    appVersion: v3.5.3
+    created: "2023-03-19T14:32:52.967223863Z"
+    description: A Helm chart for Speedtest-cli exporter
+    digest: c0d2e680e3f47f1aa80415438075eb42909ff9f03ead5f46d35074bc7f4c9a87
+    icon: https://www.speedtest.net/s/images/ookla/index/gauge-blue-1x.png
+    keywords:
+    - speedtest
+    - speedtest-cli
+    - prometheus
+    - exporter
+    maintainers:
+    - name: Alexander Chernov
+      url: https://gitlab.com/alexander-chernov/helm/speedtest-exporter
+    name: speedtest-exporter
+    type: application
+    urls:
+    - speedtest-exporter-0.1.0.tgz
+    version: 0.1.0
   zzz:
   - apiVersion: v2
     appVersion: 1.16.0
