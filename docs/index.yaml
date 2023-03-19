@@ -802,6 +802,17 @@ entries:
     urls:
     - local-storage-0.3.1.tgz
     version: 0.3.1
+  mikrotik-exporter:
+  - apiVersion: v2
+    appVersion: v1.1.2
+    created: "2023-03-19T13:55:08.199310887Z"
+    description: A Helm chart for Kubernetes
+    digest: f6ce9319c6737c70a6bfe7c51fad28156a87d0e8a9a2ca515cf8bd3a5fe8aa8c
+    name: mikrotik-exporter
+    type: application
+    urls:
+    - mikrotik-exporter-0.1.0.tgz
+    version: 0.1.0
   phpmyadmin:
   - apiVersion: v2
     appVersion: 5.1.3-apache
