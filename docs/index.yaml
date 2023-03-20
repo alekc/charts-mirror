@@ -845,6 +845,16 @@ entries:
     version: 0.1.0
   phpmyadmin:
   - apiVersion: v2
+    appVersion: 5.2.1-apache
+    created: "2023-03-20T07:05:40.752904219Z"
+    description: A Helm chart for official phpmyadmin docker image
+    digest: f6c4254937ea6513a9796ba433af6af321df8bba23e34764197fc578d0557a02
+    name: phpmyadmin
+    type: application
+    urls:
+    - phpmyadmin-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 5.1.3-apache
     created: "2022-07-06T15:53:33.145577+01:00"
     description: A Helm chart for official phpmyadmin docker image
