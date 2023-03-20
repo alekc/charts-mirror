@@ -180,6 +180,28 @@ entries:
     - caddy-0.0.1.tgz
     version: 0.0.1
   changedetection:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: bump to 0.40.2
+      artifacthub.io/images: |
+        - name: changedetection
+          image: ghcr.io/dgtlmoon/changedetection.io
+      artifacthub.io/links: |
+        - name: Home
+          url: https://changedetection.io/
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/changedetection
+    apiVersion: v2
+    appVersion: 0.40.2
+    created: "2023-03-20T10:19:57.784176612Z"
+    description: A Helm chart for Kubernetes
+    digest: b2b3a25f15c11550da0a3a3cc073169c928ea51c2d2f882a3cd91d0e2cd9ad7c
+    name: changedetection
+    type: application
+    urls:
+    - changedetection-0.1.3.tgz
+    version: 0.1.3
   - apiVersion: v2
     appVersion: 0.40.1.1
     created: "2023-01-23T12:13:49.403077371Z"
