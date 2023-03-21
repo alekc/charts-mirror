@@ -1096,6 +1096,27 @@ entries:
   sonarr:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: bumped version to
+      artifacthub.io/images: |
+        - name: sonarr
+          image: hotio/sonarr
+      artifacthub.io/links: |
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/sonarr
+    apiVersion: v2
+    appVersion: release-3.0.10.1567
+    created: "2023-03-21T15:48:11.541862977Z"
+    description: A Sonarr Helm chart for Kubernetes
+    digest: 2687b5429c059f1bdb64fb5bfff6ddee56588bd2bfe40ed219bf73f96e32569b
+    icon: https://avatars.githubusercontent.com/u/1082903
+    name: sonarr
+    type: application
+    urls:
+    - sonarr-0.2.2.tgz
+    version: 0.2.2
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Rollout behaviour was not set to recreate
       artifacthub.io/images: |
