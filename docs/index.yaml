@@ -183,6 +183,28 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: bump to 0.40.3
+      artifacthub.io/images: |
+        - name: changedetection
+          image: ghcr.io/dgtlmoon/changedetection.io
+      artifacthub.io/links: |
+        - name: Home
+          url: https://changedetection.io/
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/changedetection
+    apiVersion: v2
+    appVersion: 0.40.3
+    created: "2023-03-31T09:52:26.883771053Z"
+    description: A Helm chart for Kubernetes
+    digest: db8a420bab1825c8973ac702ae824ab5956e9116a751b12d0a06acc9bec014f9
+    name: changedetection
+    type: application
+    urls:
+    - changedetection-0.1.4.tgz
+    version: 0.1.4
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: bump to 0.40.2
       artifacthub.io/images: |
         - name: changedetection
