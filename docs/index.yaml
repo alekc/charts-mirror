@@ -1185,6 +1185,27 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: Bumped radarr version to release-4.4.4.7068
+      artifacthub.io/images: |
+        - name: radarr
+          image: hotio/radarr
+      artifacthub.io/links: |
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/radarr
+    apiVersion: v2
+    appVersion: release-4.4.4.7068
+    created: "2023-04-17T19:06:00.264214717Z"
+    description: A Radarr Helm chart for Kubernetes
+    digest: 55e619cb73528b7be8bec903c8195005338fb69ed468d6c734d41d9e0207e38b
+    icon: https://avatars.githubusercontent.com/u/25025331
+    name: radarr
+    type: application
+    urls:
+    - radarr-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: Default rollout behaviour now is Recreate
         - kind: changed
           description: Bumped radarr version to 4.3.2.6857
