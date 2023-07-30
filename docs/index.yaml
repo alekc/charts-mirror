@@ -598,6 +598,36 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: bump home assistant version to 2023.7.3
+      artifacthub.io/images: |
+        - name: home-assistant
+          image: homeassistant/home-assistant
+      artifacthub.io/links: |
+        - name: Home assistant source repo
+          url: https://github.com/home-assistant
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/home-assistant
+    apiVersion: v2
+    appVersion: 2023.7.3
+    created: "2023-07-27T16:36:51.740682445Z"
+    description: |
+      HomeAssistant is an open source home automation that puts local control and privacy first.
+      Powered by a worldwide community of tinkerers and DIY enthusiasts.
+      Perfect to run on a Raspberry Pi or a local server.
+    digest: 8d0faa4b4a39d852f6231314b799c68c8c2394f4efe566bc04e86951986b2ea2
+    icon: https://github.com/home-assistant/assets/blob/master/logo/logo-pretty.png?raw=true
+    keywords:
+    - homeassistant
+    - home-assistant
+    - smart home
+    name: home-assistant
+    type: application
+    urls:
+    - home-assistant-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: bump home assistant version to 2023.5.3
       artifacthub.io/images: |
         - name: home-assistant
@@ -1245,6 +1275,27 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: Bumped radarr version to release-4.6.4.7568
+      artifacthub.io/images: |
+        - name: radarr
+          image: hotio/radarr
+      artifacthub.io/links: |
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/radarr
+    apiVersion: v2
+    appVersion: release-4.6.4.7568
+    created: "2023-07-27T16:56:26.520269541Z"
+    description: A Radarr Helm chart for Kubernetes
+    digest: 21ba82799b9a433d6e2e670cae951034fcf1c94176e00d5ea58259f9dd1dc7e4
+    icon: https://avatars.githubusercontent.com/u/25025331
+    name: radarr
+    type: application
+    urls:
+    - radarr-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: Bumped radarr version to release-4.4.4.7068
       artifacthub.io/images: |
         - name: radarr
@@ -1414,6 +1465,39 @@ entries:
     - sonarr-0.1.0.tgz
     version: 0.1.0
   speedtest-exporter:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed]: Changed version to v3.5.4"
+      artifacthub.io/images: |
+        - name: speedtest-exporter
+          image: ghcr.io/miguelndecarvalho/speedtest-exporter
+      artifacthub.io/links: |
+        - name: Speedtest exporter source
+          url: https://github.com/MiguelNdeCarvalho/speedtest-exporter
+        - name: Chart source
+          url: https://gitlab.com/alexander-chernov/helm/speedtest-exporter
+      artifacthub.io/maintainers: |
+        - name: Alexander Chernov
+          email: alexander@chernov.it
+    apiVersion: v2
+    appVersion: v3.5.4
+    created: "2023-07-27T16:26:36.734398327Z"
+    description: A Helm chart for Speedtest-cli exporter
+    digest: 7ff55e891d7876d02ea17cce8bfbe80242e21a8f25d555bd3d61433278acd9f8
+    icon: https://www.speedtest.net/s/images/ookla/index/gauge-blue-1x.png
+    keywords:
+    - speedtest
+    - speedtest-cli
+    - prometheus
+    - exporter
+    maintainers:
+    - name: Alexander Chernov
+      url: https://gitlab.com/alexander-chernov/helm/speedtest-exporter
+    name: speedtest-exporter
+    type: application
+    urls:
+    - speedtest-exporter-0.1.1.tgz
+    version: 0.1.1
   - annotations:
       artifacthub.io/changes: |
         - "[Changed]: First version"
