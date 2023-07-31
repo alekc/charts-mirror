@@ -1144,6 +1144,43 @@ entries:
     urls:
     - mikrotik-exporter-0.1.0.tgz
     version: 0.1.0
+  nvidia-device-plugin:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: first forked version
+      artifacthub.io/images: |
+        - name: caddy
+          image: caddy
+      artifacthub.io/links: |
+        - name: Home
+          url: https://github.com/NVIDIA/k8s-device-plugin
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
+    apiVersion: v2
+    appVersion: 0.14.0
+    created: "2023-07-31T15:42:09.968818098Z"
+    dependencies:
+    - alias: nfd
+      condition: nfd.enabled,gfd.enabled
+      name: node-feature-discovery
+      repository: https://kubernetes-sigs.github.io/node-feature-discovery/charts
+      version: 0.13.3
+    - alias: gfd
+      condition: gfd.enabled
+      name: gpu-feature-discovery
+      repository: https://nvidia.github.io/gpu-feature-discovery
+      version: 0.8.1
+    description: A Helm chart for the nvidia-device-plugin on Kubernetes
+    digest: b93514d5af47a4fb5c91e121136fd782488095b7036c346cb8deee9f33050a3a
+    home: https://github.com/NVIDIA/k8s-device-plugin
+    icon: https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-vert-500x200-2c50-d.png
+    kubeVersion: '>= 1.10.0-0'
+    name: nvidia-device-plugin
+    type: application
+    urls:
+    - nvidia-device-plugin-0.14.0.tgz
+    version: 0.14.0
   phpmyadmin:
   - apiVersion: v2
     appVersion: 5.2.1-apache
