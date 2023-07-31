@@ -183,6 +183,29 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: bump to 0.43.2
+      artifacthub.io/images: |
+        - name: changedetection
+          image: ghcr.io/dgtlmoon/changedetection.io
+      artifacthub.io/links: |
+        - name: Home
+          url: https://changedetection.io/
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/changedetection
+    apiVersion: v2
+    appVersion: 0.43.2
+    created: "2023-07-31T09:35:10.847099295Z"
+    description: The best and simplest free open source website change detection,
+      restock monitor and notification service.
+    digest: 8bc9692137f1932f24b9eb035cbcb1a41046572b5d555382e33886acbc81aaba
+    name: changedetection
+    type: application
+    urls:
+    - changedetection-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: bump to 0.40.3
       artifacthub.io/images: |
         - name: changedetection
