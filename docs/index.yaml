@@ -1147,6 +1147,42 @@ entries:
   nvidia-device-plugin:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: bumped app version to 0.14.1
+      artifacthub.io/images: |
+        - name: caddy
+          image: caddy
+      artifacthub.io/links: |
+        - name: Home
+          url: https://github.com/NVIDIA/k8s-device-plugin
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
+    apiVersion: v2
+    appVersion: 0.14.1
+    created: "2023-07-31T15:50:15.011432956Z"
+    dependencies:
+    - alias: nfd
+      condition: nfd.enabled,gfd.enabled
+      name: node-feature-discovery
+      repository: https://kubernetes-sigs.github.io/node-feature-discovery/charts
+      version: 0.13.3
+    - alias: gfd
+      condition: gfd.enabled
+      name: gpu-feature-discovery
+      repository: https://nvidia.github.io/gpu-feature-discovery
+      version: 0.8.1
+    description: A Helm chart for the nvidia-device-plugin on Kubernetes
+    digest: ffa28bef8cbdc40649c2b1fcb4a15947760d2fcf8fc3dd5781d806fd2703f1b2
+    home: https://github.com/NVIDIA/k8s-device-plugin
+    icon: https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-vert-500x200-2c50-d.png
+    kubeVersion: '>= 1.10.0-0'
+    name: nvidia-device-plugin
+    type: application
+    urls:
+    - nvidia-device-plugin-0.14.1.tgz
+    version: 0.14.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: first forked version
       artifacthub.io/images: |
