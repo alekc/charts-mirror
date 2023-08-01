@@ -1238,6 +1238,39 @@ entries:
     urls:
     - phpmyadmin-0.1.1.tgz
     version: 0.1.1
+  plex:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: bump plex version to 1.32.4
+      artifacthub.io/images: |
+        - name: linuxserver/plex
+          image: docker.io/linuxserver/plex
+      artifacthub.io/license: MIT
+    apiVersion: v2
+    appVersion: 1.32.4
+    created: "2023-08-01T14:24:43.02191916Z"
+    description: Plex Media Server Helm chart
+    digest: a8990c3f8cdd37fdb86b5a36976782031869104fd31502b6c13f232215ebbecf
+    home: https://www.plex.tv
+    icon: https://utkuozdemir.org/helm-charts/plex.png
+    keywords:
+    - plex
+    - media-server
+    - plex-media-server
+    - streaming
+    - tv
+    maintainers:
+    - email: alexander@chernov.it
+      name: Alexander Chernov
+    name: plex
+    sources:
+    - https://github.com/linuxserver/docker-plex
+    - https://gitlab.com/alexander-chernov/helm/plex
+    type: application
+    urls:
+    - plex-2.2.0.tgz
+    version: 2.2.0
   prowlarr:
   - annotations:
       artifacthub.io/changes: |
