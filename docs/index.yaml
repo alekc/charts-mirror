@@ -1379,6 +1379,16 @@ entries:
   qbittorrent:
   - apiVersion: v2
     appVersion: 4.5.2
+    created: "2023-08-10T07:51:31.414956064Z"
+    description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
+    digest: a9c6889803c1b893ae75393f9c36cc2f19a39424471bf2d1fa1ef7e763214006
+    name: qbittorrent
+    type: application
+    urls:
+    - qbittorrent-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 4.5.2
     created: "2023-03-20T07:12:45.838195299Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: fecf2346a17c408e261af4589502e99068ddec9c0bc725e708710ae4544d9a23
