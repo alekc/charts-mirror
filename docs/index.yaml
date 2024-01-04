@@ -1991,9 +1991,9 @@ entries:
         - kind: changed
           description: Changed source image to hotio/qbittorrent (breaking change)
         - kind: removed
-          descroption: Removed gluetun since wireguard support is now baked in the image
+          description: Removed gluetun since wireguard support is now baked in the image
         - kind: added
-          description: Added privoxy and wireguard configs in values.yaml
+          description: Added privoxy and vpn configs in values.yaml
       artifacthub.io/links: |
         - name: Helm Repo
           url: https://gitlab.com/alexander-chernov/helm/qbittorrent
