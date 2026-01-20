@@ -6,7 +6,7 @@ entries:
         - kind: changed
           description: Bumped version from 6.13.5 to 6.13.6
     apiVersion: v2
-    created: "2026-01-20T11:36:41.142110257Z"
+    created: "2026-01-20T13:40:28.924862178Z"
     dependencies:
     - name: common
       repository: oci://oci.trueforge.org/truecharts
@@ -32,7 +32,7 @@ entries:
           description: First version
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-01-20T11:36:41.326813098Z"
+    created: "2026-01-20T13:40:29.074332713Z"
     description: A Helm chart for Kubernetes
     digest: ab170d1d9ac7aeab71ebb69ebf1e9460537b315d16a8d29a4616b9ed15c8eb18
     icon: https://www.eksworkshop.com/images/helm-logo.svg
@@ -51,7 +51,7 @@ entries:
         - kind: added
           description: First release
     apiVersion: v2
-    created: "2026-01-20T11:36:41.531586008Z"
+    created: "2026-01-20T13:40:29.2550554Z"
     dependencies:
     - name: common
       repository: oci://oci.trueforge.org/truecharts
@@ -76,7 +76,7 @@ entries:
         - kind: added
           description: Added support for directory source
     apiVersion: v2
-    created: "2026-01-20T11:36:42.044541823Z"
+    created: "2026-01-20T13:40:29.727656529Z"
     description: A Helm chart for Kubernetes
     digest: 0c2f9d9a1be169251672946db813b63ad0e823033396e705a7e7d713ee476828
     icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
@@ -94,7 +94,7 @@ entries:
         - kind: changed
           description: Swapped from kiwigrid any-resource to alekc implementation
     apiVersion: v2
-    created: "2026-01-20T11:36:41.883697698Z"
+    created: "2026-01-20T13:40:29.579805978Z"
     description: A Helm chart for Kubernetes
     digest: a4b87599fde42234086f1fb17295bb653bfd46ceb37360e0ec7ca8574b8cad1d
     icon: https://www.eksworkshop.com/images/helm-logo.svg
@@ -113,7 +113,7 @@ entries:
           description: First version
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-01-20T11:36:41.70814999Z"
+    created: "2026-01-20T13:40:29.430048537Z"
     description: A Helm chart for Kubernetes
     digest: 439813425bd3d863109e667b5b54cce7c56b3e4b759defdbccdf891c28177753
     icon: https://www.eksworkshop.com/images/helm-logo.svg
@@ -136,7 +136,7 @@ entries:
           image: browserless/chrome:1.53.0-chrome-stable
     apiVersion: v2
     appVersion: 1.53.0
-    created: "2026-01-20T11:36:42.364073272Z"
+    created: "2026-01-20T13:40:30.030981212Z"
     description: A Helm chart for Kubernetes
     digest: d9bca45b15393651e2d70509822ddbebc277726224862b9195f2c4c3fd9d733b
     keywords:
@@ -161,7 +161,7 @@ entries:
           image: browserless/chrome:1.53.0-chrome-stable
     apiVersion: v2
     appVersion: 1.53.0
-    created: "2026-01-20T11:36:42.213353105Z"
+    created: "2026-01-20T13:40:29.836345804Z"
     description: A Helm chart for Kubernetes
     digest: 62b2fd7efd552baec709caf9d5e1194a7778dd7e69966643a9e2b45c654a6633
     keywords:
@@ -189,7 +189,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.10.2
-    created: "2026-01-20T11:36:48.487422264Z"
+    created: "2026-01-20T13:40:33.175807103Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 6bfc976da2e3cc8b56bb7e458502b41c614016be58556da48b0ebe59869330fa
@@ -210,7 +210,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.10.0
-    created: "2026-01-20T11:36:48.282620643Z"
+    created: "2026-01-20T13:40:33.022632059Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: aed5f4353ff4f039bbe725a062cea82cead27790bcc4b13ddf114f66167b2bfe
@@ -231,7 +231,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.9.1
-    created: "2026-01-20T11:36:48.083178652Z"
+    created: "2026-01-20T13:40:32.867070507Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 637741aeafbc86d8a6f0ec16115a8d5caf5d7d4346c71f3e771ffc8d08e61667
@@ -252,7 +252,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.8.4
-    created: "2026-01-20T11:36:47.884809823Z"
+    created: "2026-01-20T13:40:32.715012229Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: ba6a701b3528041d28de9a715603c34b1fc6b67b41e07b7d0cef22ff2f03b381
@@ -273,7 +273,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.7.6
-    created: "2026-01-20T11:36:47.566934616Z"
+    created: "2026-01-20T13:40:32.549875834Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 8ae443ffd98cc7d685b5138849f3d5e3cf27220824ceae4c47faa3c78ddc0d41
@@ -294,7 +294,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.7.6
-    created: "2026-01-20T11:36:47.408621584Z"
+    created: "2026-01-20T13:40:32.397745294Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 552efb6d3305506d447e7ffe58094a2991b251d6893c842e7e1ab8f14b0262da
@@ -317,7 +317,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.7.6
-    created: "2026-01-20T11:36:47.2507011Z"
+    created: "2026-01-20T13:40:32.248084539Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 50788c9cface771f55ceb7376c220c7254fc3e28c6fbd4c4ecef5a360b70433f
@@ -338,7 +338,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.7.6
-    created: "2026-01-20T11:36:47.089795401Z"
+    created: "2026-01-20T13:40:32.103848941Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 2685293b97b6d179ccd50d42870d44516f28025a45a627975580f3de7ac831b3
@@ -359,7 +359,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.7.5
-    created: "2026-01-20T11:36:46.921659549Z"
+    created: "2026-01-20T13:40:31.944490103Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 9a67fafb8e08b7abe7150594134b6c6c8ae5e626df257f87b8bd0e1bca902ba6
@@ -383,7 +383,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.7.4
-    created: "2026-01-20T11:36:46.766750502Z"
+    created: "2026-01-20T13:40:31.789876805Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 5136ac6872e987a0ddd93e91e182d153b9f4c45520b052bf1b5ab535299bf3f6
@@ -407,7 +407,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.7.2
-    created: "2026-01-20T11:36:46.59905111Z"
+    created: "2026-01-20T13:40:31.641759612Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 77fe5a041c61288adefd31fc536b1ee1578682c73636af9a12af00bf6c8bed5a
@@ -430,7 +430,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.6.4
-    created: "2026-01-20T11:36:46.436895188Z"
+    created: "2026-01-20T13:40:31.486076398Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 9e3398d069dd33cf6efe36ae9b0979d5bcb2003f563ae9b2aadf6e0d50668d93
@@ -453,7 +453,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.6.2
-    created: "2026-01-20T11:36:45.31194622Z"
+    created: "2026-01-20T13:40:31.179642698Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: f50db2fc49186936ee1b8c202fcc98ab76028cdee2566aa1ca8497b5dc4b6fb2
@@ -477,7 +477,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.6.2
-    created: "2026-01-20T11:36:44.213253555Z"
+    created: "2026-01-20T13:40:30.852009621Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 96f38bc1f2343b3241a43c68760589722e4500ecb0edea84deefd0f238dcde7c
@@ -500,7 +500,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.6.2
-    created: "2026-01-20T11:36:43.184773733Z"
+    created: "2026-01-20T13:40:30.697556368Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 61833f17bde86fb64487e86b9dfdc934c99cad3cf8de4a815043366a27b7ef46
@@ -524,7 +524,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/caddy
     apiVersion: v2
     appVersion: 2.6.1
-    created: "2026-01-20T11:36:43.001506573Z"
+    created: "2026-01-20T13:40:30.526587936Z"
     description: |
       The Caddy web server is an extensible, cross-platform, open-source web server written in Go.
     digest: 9b1e4970eaac270dcf0175ff35bf9d1b14022d262ed4e4c42069df5a1674dcf6
@@ -536,7 +536,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.4.6
-    created: "2026-01-20T11:36:42.817328905Z"
+    created: "2026-01-20T13:40:30.33435286Z"
     description: A Helm chart for Kubernetes
     digest: 6f30a6d15f2642c6ffe4758950d452e20a7fa3e56ab22079ebda5c5ad31437c9
     name: caddy
@@ -545,6 +545,29 @@ entries:
     - caddy-0.0.1.tgz
     version: 0.0.1
   changedetection:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Bumped version from 0.52.7 to 0.52.8
+      artifacthub.io/images: |
+        - name: changedetection
+          image: ghcr.io/dgtlmoon/changedetection.io
+      artifacthub.io/links: |
+        - name: Home
+          url: https://changedetection.io/
+        - name: Helm Repo
+          url: https://gitlab.com/alexander-chernov/helm/changedetection
+    apiVersion: v2
+    appVersion: 0.52.8
+    created: "2026-01-20T13:40:46.662771898Z"
+    description: The best and simplest free open source website change detection,
+      restock monitor and notification service.
+    digest: efbfd87451b36fc71a19977d854f4008e74aad53a902f0e79e6f9a558f6e55bc
+    name: changedetection
+    type: application
+    urls:
+    - changedetection-0.9.7.tgz
+    version: 0.9.7
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
@@ -559,7 +582,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.52.7
-    created: "2026-01-20T11:36:58.682172176Z"
+    created: "2026-01-20T13:40:46.512726866Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: e17351c6cd682a7d8c1b1b9ffd4e81bf800a16db6bc2eff4bc9794d481511acb
@@ -582,7 +605,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.52.6
-    created: "2026-01-20T11:36:58.519760831Z"
+    created: "2026-01-20T13:40:46.364860914Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 5905a21e8c98af44994e92ee4e3f00c1a5ad0ec3cb559f42c743bb7e528e651f
@@ -605,7 +628,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.52.5
-    created: "2026-01-20T11:36:58.325085941Z"
+    created: "2026-01-20T13:40:46.202216812Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 522bb8d0dfb1595250b993f4170af5ec754f1d404ca4b593ca3431b8a79ad2a7
@@ -628,7 +651,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.52.4
-    created: "2026-01-20T11:36:58.158733438Z"
+    created: "2026-01-20T13:40:46.053661182Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 6fc5ca7129b57376ab899930f3cbdf0d64cb61bc1b2b8c6da54fbae2806991ec
@@ -651,7 +674,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.52.3
-    created: "2026-01-20T11:36:57.988044547Z"
+    created: "2026-01-20T13:40:45.886092586Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 2850a1c7556cfcab1f06e100820e876d1c0fad290ae18aefca483a359aa43045
@@ -674,7 +697,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.52.2
-    created: "2026-01-20T11:36:57.832310924Z"
+    created: "2026-01-20T13:40:45.737050746Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 2bdc3bc60f9a9d3b26fa6d7568e0690eaaf0e94bf92409ab5a064c75b4b0317a
@@ -697,7 +720,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.52.1
-    created: "2026-01-20T11:36:57.661342848Z"
+    created: "2026-01-20T13:40:45.593334385Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: bf752182d9b0b135c42c03d518a6ef6617731495f6e4353eecb482917f88c841
@@ -720,7 +743,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.51.4
-    created: "2026-01-20T11:36:57.492002846Z"
+    created: "2026-01-20T13:40:45.435896235Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 2edba2adf9357b29f1af7bff194572bfe607079846b9170b3d25d7031f066362
@@ -743,7 +766,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.51.3
-    created: "2026-01-20T11:36:57.335708335Z"
+    created: "2026-01-20T13:40:45.313003018Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 7dc1a428fccfa9fc5574da28e16affb1da462553c44aa2dff90702d677a44db3
@@ -766,7 +789,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.51.2
-    created: "2026-01-20T11:36:57.160011605Z"
+    created: "2026-01-20T13:40:45.158501673Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 9e5fb818ac29edafe1fbb09afd765f5075501e2eaac303e29222ea516ed80b22
@@ -789,7 +812,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.51.1
-    created: "2026-01-20T11:36:56.994066052Z"
+    created: "2026-01-20T13:40:45.010242016Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: dc7d0ffabf0881660beef8fb240dce7dc19d02ea836d65812c26e62745afb9f1
@@ -812,7 +835,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.43
-    created: "2026-01-20T11:36:55.847741479Z"
+    created: "2026-01-20T13:40:41.965732011Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 870dbdca779e61496ef7c46b8ffeaf6c4e0ef7fd9c1836063059c29d735c2bf9
@@ -835,7 +858,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.42
-    created: "2026-01-20T11:36:55.674424881Z"
+    created: "2026-01-20T13:40:40.592665576Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 373b34bbc433fddfc48a500ea8895941fd0bdf12270724767cf37555c182423e
@@ -858,7 +881,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.41
-    created: "2026-01-20T11:36:55.525922759Z"
+    created: "2026-01-20T13:40:40.344814105Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: a2cc4d43c9c0d56fc208b7372a30af50e11f0f8970964a77b466228bc48d7e46
@@ -881,7 +904,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.40
-    created: "2026-01-20T11:36:55.347741036Z"
+    created: "2026-01-20T13:40:39.946583323Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: ee6d2d73e6a16a78727828094fce12476875a1f0a2ca366c65ed45cb4d17e5d3
@@ -904,7 +927,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.39
-    created: "2026-01-20T11:36:55.177913313Z"
+    created: "2026-01-20T13:40:39.745131619Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 26b1c3377badda71e87f7307d2a42ef0842d9474caf8b25ca90f4431de75aa21
@@ -927,7 +950,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.38
-    created: "2026-01-20T11:36:55.020380031Z"
+    created: "2026-01-20T13:40:39.557376792Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 1499620930e084d6129ab1e7611a9bf4c57286c9558e7bb3860a0808d335c760
@@ -950,7 +973,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.37
-    created: "2026-01-20T11:36:54.639266695Z"
+    created: "2026-01-20T13:40:39.232908337Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 10c5760843c191cb1e43b78f469fca6d7b110471b104a413cec79b2c3968358f
@@ -973,7 +996,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.35
-    created: "2026-01-20T11:36:54.444343648Z"
+    created: "2026-01-20T13:40:39.047968663Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 50bc0449a8caf317c452bc6a9fc1764a211907bf22728ef97ec577e32e86c411
@@ -996,7 +1019,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.34
-    created: "2026-01-20T11:36:54.281989256Z"
+    created: "2026-01-20T13:40:38.634164776Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: a24a6e070ea8516019af307afab0dfa5eefd09aa45f43b95fc43db865013ad25
@@ -1019,7 +1042,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.33
-    created: "2026-01-20T11:36:54.119585143Z"
+    created: "2026-01-20T13:40:38.308553185Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 51bf7a5c2c20a3d6604aeab05b900538d39bb3b8ec599c4bfb47fd175d8b9bf6
@@ -1042,7 +1065,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.32
-    created: "2026-01-20T11:36:53.876755945Z"
+    created: "2026-01-20T13:40:38.102115744Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: f68b0856d6c5c69659b1ad010d021661bdf6a273d6b97008cb06b30efd24731c
@@ -1065,7 +1088,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.31
-    created: "2026-01-20T11:36:53.716237216Z"
+    created: "2026-01-20T13:40:37.940745139Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: e3bde7c73effe87736e78b925f9458300617ce96f1dfab0181938ad368e7ae77
@@ -1088,7 +1111,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.30
-    created: "2026-01-20T11:36:53.538084859Z"
+    created: "2026-01-20T13:40:37.731116861Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 1662c66065cbb3ec8d4d38b3f872211289ee2903d87bec62655b4f0703fa4a19
@@ -1111,7 +1134,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.29
-    created: "2026-01-20T11:36:53.383766861Z"
+    created: "2026-01-20T13:40:37.569553746Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 3bb09103a67fb0ce99cf4fdda59f5017eac245bf53f5c7a9b84d26834c5c487a
@@ -1134,7 +1157,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.28
-    created: "2026-01-20T11:36:53.220612862Z"
+    created: "2026-01-20T13:40:37.409886455Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 6371c201618619c0f0aeed188b4c35482e2ad421f354254b27100c618da56ef9
@@ -1157,7 +1180,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.27
-    created: "2026-01-20T11:36:53.059530012Z"
+    created: "2026-01-20T13:40:37.256051028Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 9291c0374281e8687daae5c42a1daa7b5b134ff74fa67d033e1ceb719f2b6497
@@ -1180,7 +1203,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.26
-    created: "2026-01-20T11:36:52.726677683Z"
+    created: "2026-01-20T13:40:36.940793711Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: c6af251ef49edb8679d8e0a4e9fd742836931ee38705949cd3fdc521f0422069
@@ -1203,7 +1226,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.25
-    created: "2026-01-20T11:36:52.566710972Z"
+    created: "2026-01-20T13:40:36.798340036Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 4a323bc587ef30804c47b5f1180856830e48a616bf65e4306e5921d711e31de0
@@ -1226,7 +1249,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.24
-    created: "2026-01-20T11:36:52.409475657Z"
+    created: "2026-01-20T13:40:36.63619586Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 68414e793c68c48c7a317f2f8f695c7e6454ae46edc859d7f9bf54e0e9a25bfc
@@ -1249,7 +1272,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.23
-    created: "2026-01-20T11:36:52.24188035Z"
+    created: "2026-01-20T13:40:36.458561043Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: af641377a8b5a866459f7c4896a66b598d075f3d95779ddbb3f60f1c23ae210b
@@ -1272,7 +1295,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.22
-    created: "2026-01-20T11:36:52.072503348Z"
+    created: "2026-01-20T13:40:36.283752622Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 2cbcf32d36ea41a9b17b8f20ee4a8a730ecc55b6c857116af406cd98ecb17ee1
@@ -1295,7 +1318,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.21
-    created: "2026-01-20T11:36:51.884239004Z"
+    created: "2026-01-20T13:40:36.127809649Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: c5a15f39089085749ed6e8e5681eafb41817cde23b2b64b2e2579aefcc6a0ec8
@@ -1318,7 +1341,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.20
-    created: "2026-01-20T11:36:51.70346176Z"
+    created: "2026-01-20T13:40:35.969392528Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 9703ae69c1e2f6e03d69373d664349f6038af704dea5f046e2fdc0ca694f3c14
@@ -1341,7 +1364,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.19
-    created: "2026-01-20T11:36:51.480698951Z"
+    created: "2026-01-20T13:40:35.832883681Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 287d3edb29d773d254620b52821adb38b7e6625234851bee5c65bc5f3a93e49a
@@ -1364,7 +1387,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.18
-    created: "2026-01-20T11:36:51.288102311Z"
+    created: "2026-01-20T13:40:35.672748703Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 3660caa9cddf5c4134485e648ad55aed705c6642750705c7f11de17b03c4e44d
@@ -1387,7 +1410,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.17
-    created: "2026-01-20T11:36:51.053746531Z"
+    created: "2026-01-20T13:40:35.525035679Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: b6a1ad1e239e44d1ef03921bc993be35fcc96194a33619f8eb0d66f2cb199ecd
@@ -1410,7 +1433,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.16
-    created: "2026-01-20T11:36:56.834702253Z"
+    created: "2026-01-20T13:40:44.85873342Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: a716cd01fe4a26e4344f46ca266a9b5c7571adf2fe0d43fd853cd84f72743071
@@ -1433,7 +1456,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.15
-    created: "2026-01-20T11:36:56.672839535Z"
+    created: "2026-01-20T13:40:44.662650294Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 747ef0e118e5daf9e541f143fbf408591824dbbdfab75568c82f0dcfbd4326f4
@@ -1456,7 +1479,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.14
-    created: "2026-01-20T11:36:56.504861556Z"
+    created: "2026-01-20T13:40:44.472908581Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 2a522bbfee9d87a3a0619cb6cc8caf9826333a87527a2eb14d3ff1ecb78da905
@@ -1479,7 +1502,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.13
-    created: "2026-01-20T11:36:56.348391653Z"
+    created: "2026-01-20T13:40:44.275834962Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 5d12cf9e0c79d916c9a037d9f154da3048bca49ae0ce99e6a3eec0b3187536df
@@ -1502,7 +1525,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.12
-    created: "2026-01-20T11:36:56.189088518Z"
+    created: "2026-01-20T13:40:44.102028484Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 001fc4d31596ada375895b0dd2cc37bb67fb437e21110a27d0c6ad686194cadb
@@ -1525,7 +1548,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.11
-    created: "2026-01-20T11:36:56.032227296Z"
+    created: "2026-01-20T13:40:42.709040409Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 742b8943541a50912b935c09ca73925048669101328b1d0aa98f70f92f239882
@@ -1548,7 +1571,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.10
-    created: "2026-01-20T11:36:54.861679422Z"
+    created: "2026-01-20T13:40:39.394776209Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 7c27e0aaac32d87820cdbdf9faf4dbcc10ee7d50702f45933c9b357ab96e9a10
@@ -1571,7 +1594,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.9
-    created: "2026-01-20T11:36:52.903139851Z"
+    created: "2026-01-20T13:40:37.107022911Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: e7b8d6090ab5480471c93e181d735b4d5d8125cfde6b7b5d0e438b9e1d3400f4
@@ -1594,7 +1617,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.8
-    created: "2026-01-20T11:36:50.81783382Z"
+    created: "2026-01-20T13:40:35.345760454Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 9156823eff40f43284f1940578dade56ef4389d1a5acf1652f732366cf766c1a
@@ -1617,7 +1640,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.50.7
-    created: "2026-01-20T11:36:50.649741414Z"
+    created: "2026-01-20T13:40:35.195544534Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 4f5323a9f51550c50341fcee1129889be70d20a17892e33451bf1960a7eb7f9c
@@ -1640,7 +1663,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.47.03
-    created: "2026-01-20T11:36:50.493032278Z"
+    created: "2026-01-20T13:40:35.044031324Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 0f50387e070f58c0548cdb6b1df8593c1d2d3ad37119990fd433722d0eeb9ee7
@@ -1663,7 +1686,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.47.03
-    created: "2026-01-20T11:36:50.316905922Z"
+    created: "2026-01-20T13:40:34.886731086Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 9df89a3773e2f53b71dcf21a66543274e15eaf09926bec5aa8902cd39fcb0647
@@ -1686,7 +1709,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.46.04
-    created: "2026-01-20T11:36:50.15882882Z"
+    created: "2026-01-20T13:40:34.695341307Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: a1585943659b1e23ef5f1b214d384e52e1cbbe5ac05a99e40ed31e3f9fd354f6
@@ -1709,7 +1732,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.45.16
-    created: "2026-01-20T11:36:50.016050921Z"
+    created: "2026-01-20T13:40:34.532365537Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: f109cc2c6492bd44966cc68632c130b9fbe511dc0c15f80afbfc7c9e86a2eed5
@@ -1732,7 +1755,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.45.14
-    created: "2026-01-20T11:36:49.855372926Z"
+    created: "2026-01-20T13:40:34.33645655Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 9c8c1ce86156a40feb33177205240e1e1457cdb9b4b4de4237b1cfaeb1ab9a4a
@@ -1755,7 +1778,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.43.2
-    created: "2026-01-20T11:36:49.676565877Z"
+    created: "2026-01-20T13:40:34.18232132Z"
     description: The best and simplest free open source website change detection,
       restock monitor and notification service.
     digest: 8bc9692137f1932f24b9eb035cbcb1a41046572b5d555382e33886acbc81aaba
@@ -1778,7 +1801,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.40.3
-    created: "2026-01-20T11:36:49.520761702Z"
+    created: "2026-01-20T13:40:34.032804984Z"
     description: A Helm chart for Kubernetes
     digest: db8a420bab1825c8973ac702ae824ab5956e9116a751b12d0a06acc9bec014f9
     name: changedetection
@@ -1800,7 +1823,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/changedetection
     apiVersion: v2
     appVersion: 0.40.2
-    created: "2026-01-20T11:36:49.318381296Z"
+    created: "2026-01-20T13:40:33.882160621Z"
     description: A Helm chart for Kubernetes
     digest: b2b3a25f15c11550da0a3a3cc073169c928ea51c2d2f882a3cd91d0e2cd9ad7c
     name: changedetection
@@ -1810,7 +1833,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.40.1.1
-    created: "2026-01-20T11:36:49.116106463Z"
+    created: "2026-01-20T13:40:33.731097132Z"
     description: A Helm chart for Kubernetes
     digest: e7546aa57b5b7d9e1b7de2b4cab09c33d90209892b7fdd75a290ff4ea35e4f66
     name: changedetection
@@ -1820,7 +1843,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.40.0.4
-    created: "2026-01-20T11:36:48.899012377Z"
+    created: "2026-01-20T13:40:33.502395416Z"
     description: A Helm chart for Kubernetes
     digest: 8d29fd971963286f1d453dd490c2051bdb749be4f893368faab98c5a815b2fbe
     name: changedetection
@@ -1830,7 +1853,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.40.0.4
-    created: "2026-01-20T11:36:48.704338534Z"
+    created: "2026-01-20T13:40:33.335392533Z"
     description: A Helm chart for Kubernetes
     digest: 85534ad999ffd487eb2021de416990b2d13905867f363c779009a1cca5b742e3
     name: changedetection
@@ -1845,7 +1868,7 @@ entries:
           description: Bumped version from 2025.11.1 to 2026.1.1
     apiVersion: v2
     appVersion: 2026.1.1
-    created: "2026-01-20T11:37:00.486173976Z"
+    created: "2026-01-20T13:40:48.056750298Z"
     description: A Helm chart for Cloudflare Tunnel (cloudflared)
     digest: 2e006dea8187ab08dfa694eeae8bb4db46174ffccc75391a13731d1c32c247a1
     icon: https://avatars.githubusercontent.com/u/314135?s=200&v=4
@@ -1864,7 +1887,7 @@ entries:
           description: Bumped version from 2025.10.1 to 2025.11.1
     apiVersion: v2
     appVersion: 2025.11.1
-    created: "2026-01-20T11:37:00.309851336Z"
+    created: "2026-01-20T13:40:47.906797348Z"
     description: A Helm chart for Cloudflare Tunnel (cloudflared)
     digest: 1a188a44cf8bb9bcde03ca26a695992cdc4a258581ddea757794708ec73c3c09
     icon: https://avatars.githubusercontent.com/u/314135?s=200&v=4
@@ -1883,7 +1906,7 @@ entries:
           description: Bumped version from 2025.10.0 to 2025.10.1
     apiVersion: v2
     appVersion: 2025.10.1
-    created: "2026-01-20T11:37:00.076538447Z"
+    created: "2026-01-20T13:40:47.755762353Z"
     description: A Helm chart for Cloudflare Tunnel (cloudflared)
     digest: 4d7b6d5169c057bf1aabed9ef6e7689ba80d3a252ebe182538a01f99c72ff9d0
     icon: https://avatars.githubusercontent.com/u/314135?s=200&v=4
@@ -1902,7 +1925,7 @@ entries:
           description: Bumped version from 2025.9.1 to 2025.10.0
     apiVersion: v2
     appVersion: 2025.10.0
-    created: "2026-01-20T11:36:59.879078626Z"
+    created: "2026-01-20T13:40:47.590764632Z"
     description: A Helm chart for Cloudflare Tunnel (cloudflared)
     digest: dc9f660fac92ed35eb934a575101358176a230796cb0af068d28d372d2d35c5d
     icon: https://avatars.githubusercontent.com/u/314135?s=200&v=4
@@ -1921,7 +1944,7 @@ entries:
           description: Bumped version from 2025.9.0 to 2025.9.1
     apiVersion: v2
     appVersion: 2025.9.1
-    created: "2026-01-20T11:36:59.570348232Z"
+    created: "2026-01-20T13:40:47.434744602Z"
     description: A Helm chart for Cloudflare Tunnel (cloudflared)
     digest: 685ec10cc9e7722447efde71a019e93a21212cdcf6a178a8f93de1a0270ba2cf
     icon: https://avatars.githubusercontent.com/u/314135?s=200&v=4
@@ -1940,7 +1963,7 @@ entries:
           description: Bumped version from 2025.8.1 to 2025.9.0
     apiVersion: v2
     appVersion: 2025.9.0
-    created: "2026-01-20T11:36:59.285431511Z"
+    created: "2026-01-20T13:40:47.281044116Z"
     description: A Helm chart for Cloudflare Tunnel (cloudflared)
     digest: 6b62bfd96783babfaef5d4b92fe095c66578a196a70470daca9dc3999cb1f5cd
     icon: https://avatars.githubusercontent.com/u/314135?s=200&v=4
@@ -1959,7 +1982,7 @@ entries:
           description: Bumped version from 2025.8.0 to 2025.8.1
     apiVersion: v2
     appVersion: 2025.8.1
-    created: "2026-01-20T11:36:59.160369954Z"
+    created: "2026-01-20T13:40:47.112546157Z"
     description: A Helm chart for Cloudflare Tunnel (cloudflared)
     digest: 259f7697e9fd4d90f33a6cad2ec3446a42a897cdbe172d306733ea3294775b0c
     icon: https://avatars.githubusercontent.com/u/314135?s=200&v=4
@@ -1978,7 +2001,7 @@ entries:
           description: Bumped version from 2025.7.0 to 2025.8.0
     apiVersion: v2
     appVersion: 2025.8.0
-    created: "2026-01-20T11:36:59.007672895Z"
+    created: "2026-01-20T13:40:46.955564347Z"
     description: A Helm chart for Cloudflare Tunnel (cloudflared)
     digest: af3b45b1d58d996409fedbba1ea3a745d37e029cb33fec89e13cd617a4f5ee23
     icon: https://avatars.githubusercontent.com/u/314135?s=200&v=4
@@ -1997,7 +2020,7 @@ entries:
           description: First version
     apiVersion: v2
     appVersion: 2025.7.0
-    created: "2026-01-20T11:36:58.844767132Z"
+    created: "2026-01-20T13:40:46.81537855Z"
     description: A Helm chart for Cloudflare Tunnel (cloudflared)
     digest: f9732cfae9cc1ba75769b76bc6b27828c79368a27e54f8616705d403ae49b8c9
     icon: https://avatars.githubusercontent.com/u/314135?s=200&v=4
@@ -2022,7 +2045,7 @@ entries:
           image: linuxserver/code-server
     apiVersion: v2
     appVersion: 4.10.1
-    created: "2026-01-20T11:37:00.870961469Z"
+    created: "2026-01-20T13:40:48.364541036Z"
     description: Run a VS Code in your cluster
     digest: c09f84a4880ad99bd293cb1fd5e81ba3f2f79a026d21d8f00168d7e6734475f2
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png
@@ -2049,7 +2072,7 @@ entries:
           image: ubuntu:latest
     apiVersion: v2
     appVersion: 4.10.1
-    created: "2026-01-20T11:37:00.681896893Z"
+    created: "2026-01-20T13:40:48.205648339Z"
     description: Run a VS Code in your cluster
     digest: ece18b24afca0b5d8200a5728c78c97b4c580669d2a82fbe3552598dcf0d1942
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png
@@ -2073,7 +2096,7 @@ entries:
         - kind: changed
           description: Bumped version from 28.29.26 to 28.29.27
     apiVersion: v2
-    created: "2026-01-20T11:37:02.937454851Z"
+    created: "2026-01-20T13:40:49.677711681Z"
     dependencies:
     - name: common
       repository: oci://oci.trueforge.org/truecharts
@@ -2094,7 +2117,7 @@ entries:
         - kind: changed
           description: Bumped version from 28.29.24 to 28.29.26
     apiVersion: v2
-    created: "2026-01-20T11:37:02.775464235Z"
+    created: "2026-01-20T13:40:49.53003207Z"
     dependencies:
     - name: common
       repository: oci://oci.trueforge.org/truecharts
@@ -2115,7 +2138,7 @@ entries:
         - kind: changed
           description: Bumped version from 28.29.23 to 28.29.24
     apiVersion: v2
-    created: "2026-01-20T11:37:02.58362866Z"
+    created: "2026-01-20T13:40:49.368757469Z"
     dependencies:
     - name: common
       repository: oci://oci.trueforge.org/truecharts
@@ -2136,7 +2159,7 @@ entries:
         - kind: changed
           description: Bumped version from 28.29.22 to 28.29.23
     apiVersion: v2
-    created: "2026-01-20T11:37:02.189927283Z"
+    created: "2026-01-20T13:40:49.213169081Z"
     dependencies:
     - name: common
       repository: oci://oci.trueforge.org/truecharts
@@ -2157,7 +2180,7 @@ entries:
         - kind: changed
           description: Bumped version from 28.29.20 to 28.29.22
     apiVersion: v2
-    created: "2026-01-20T11:37:01.732541563Z"
+    created: "2026-01-20T13:40:49.060771907Z"
     dependencies:
     - name: common
       repository: oci://oci.trueforge.org/truecharts
@@ -2178,7 +2201,7 @@ entries:
         - kind: changed
           description: Bumped version from 28.28.0 to 28.29.20
     apiVersion: v2
-    created: "2026-01-20T11:37:01.541165785Z"
+    created: "2026-01-20T13:40:48.868461271Z"
     dependencies:
     - name: common
       repository: oci://oci.trueforge.org/truecharts
@@ -2199,7 +2222,7 @@ entries:
         - kind: changed
           description: Bumped version from 6.13.5 to 6.13.6
     apiVersion: v2
-    created: "2026-01-20T11:37:01.210856895Z"
+    created: "2026-01-20T13:40:48.684613915Z"
     dependencies:
     - name: common
       repository: oci://oci.trueforge.org/truecharts
@@ -2220,7 +2243,7 @@ entries:
         - kind: changed
           description: First version
     apiVersion: v2
-    created: "2026-01-20T11:37:01.043321916Z"
+    created: "2026-01-20T13:40:48.535868219Z"
     dependencies:
     - name: common
       repository: oci://oci.trueforge.org/truecharts
@@ -2251,7 +2274,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/ddclient
     apiVersion: v2
     appVersion: 4.0.0
-    created: "2026-01-20T11:37:03.902086841Z"
+    created: "2026-01-20T13:40:50.61163528Z"
     description: |
       Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider.
     digest: f2095d6bd5ba240781ed33a32459170e377e57bf4785ce80682c52b04e4930c8
@@ -2275,7 +2298,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/ddclient
     apiVersion: v2
     appVersion: 3.11.2
-    created: "2026-01-20T11:37:03.735282103Z"
+    created: "2026-01-20T13:40:50.437974218Z"
     description: |
       Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider.
     digest: d00a07b55c7fa654fdf892487f895f13eb32dfe3107196657ba301e103c40cbe
@@ -2301,7 +2324,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/ddclient
     apiVersion: v2
     appVersion: 3.11.2
-    created: "2026-01-20T11:37:03.579043501Z"
+    created: "2026-01-20T13:40:50.276144577Z"
     description: |
       Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider.
     digest: 69fa19dd74a9ab6ecd2e3472f2fd98a6208558647098e4351bac417ec18f8533
@@ -2325,7 +2348,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/ddclient
     apiVersion: v2
     appVersion: 3.11.2
-    created: "2026-01-20T11:37:03.416207987Z"
+    created: "2026-01-20T13:40:50.116754038Z"
     description: |
       Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider.
     digest: ef02428a1470ab32aa1877ff2acfaec4d6ee1fbeae12b4637a61e64f9ff0b381
@@ -2349,7 +2372,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/ddclient
     apiVersion: v2
     appVersion: 3.10.0
-    created: "2026-01-20T11:37:03.248762748Z"
+    created: "2026-01-20T13:40:49.967051063Z"
     description: |
       Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider.
     digest: 6993650ed19d86bc24791a8a5943a78351c8009404b1fd1d8c9657e10a9f1eb4
@@ -2372,7 +2395,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/ddclient
     apiVersion: v2
     appVersion: 3.9.1
-    created: "2026-01-20T11:37:03.090760035Z"
+    created: "2026-01-20T13:40:49.81633831Z"
     description: |
       Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider.
     digest: 650bd195469d39c85c5babe3a8d294e1c0c80c3143293aba60d74dd41ba32adb
@@ -2389,7 +2412,7 @@ entries:
           description: Bumped version from 2025.12.6 to 2025.12.7
     apiVersion: v2
     appVersion: 2025.12.7
-    created: "2026-01-20T11:37:09.336714656Z"
+    created: "2026-01-20T13:40:55.827967711Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2410,7 +2433,7 @@ entries:
           description: Bumped version from 2025.12.5 to 2025.12.6
     apiVersion: v2
     appVersion: 2025.12.6
-    created: "2026-01-20T11:37:09.170553061Z"
+    created: "2026-01-20T13:40:55.68259652Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2431,7 +2454,7 @@ entries:
           description: Bumped version from 2025.12.4 to 2025.12.5
     apiVersion: v2
     appVersion: 2025.12.5
-    created: "2026-01-20T11:37:09.010086486Z"
+    created: "2026-01-20T13:40:55.537697074Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2452,7 +2475,7 @@ entries:
           description: Bumped version from 2025.12.3 to 2025.12.4
     apiVersion: v2
     appVersion: 2025.12.4
-    created: "2026-01-20T11:37:08.777747122Z"
+    created: "2026-01-20T13:40:55.364120613Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2473,7 +2496,7 @@ entries:
           description: Bumped version from 2025.12.2 to 2025.12.3
     apiVersion: v2
     appVersion: 2025.12.3
-    created: "2026-01-20T11:37:08.599329872Z"
+    created: "2026-01-20T13:40:55.184383405Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2494,7 +2517,7 @@ entries:
           description: Bumped version from 2025.12.1 to 2025.12.2
     apiVersion: v2
     appVersion: 2025.12.2
-    created: "2026-01-20T11:37:08.440881607Z"
+    created: "2026-01-20T13:40:55.033269112Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2515,7 +2538,7 @@ entries:
           description: Bumped version from 2025.12.0 to 2025.12.1
     apiVersion: v2
     appVersion: 2025.12.1
-    created: "2026-01-20T11:37:08.267761023Z"
+    created: "2026-01-20T13:40:54.877243843Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2536,7 +2559,7 @@ entries:
           description: Bumped version from 2025.11.5 to 2025.12.0
     apiVersion: v2
     appVersion: 2025.12.0
-    created: "2026-01-20T11:37:08.115944717Z"
+    created: "2026-01-20T13:40:54.696124461Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2557,7 +2580,7 @@ entries:
           description: Bumped version from 2025.11.4 to 2025.11.5
     apiVersion: v2
     appVersion: 2025.11.5
-    created: "2026-01-20T11:37:07.944092563Z"
+    created: "2026-01-20T13:40:54.516734798Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2578,7 +2601,7 @@ entries:
           description: Bumped version from 2025.11.3 to 2025.11.4
     apiVersion: v2
     appVersion: 2025.11.4
-    created: "2026-01-20T11:37:07.771370988Z"
+    created: "2026-01-20T13:40:54.320071117Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2599,7 +2622,7 @@ entries:
           description: Bumped version from 2025.11.2 to 2025.11.3
     apiVersion: v2
     appVersion: 2025.11.3
-    created: "2026-01-20T11:37:07.614168459Z"
+    created: "2026-01-20T13:40:54.163989056Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2620,7 +2643,7 @@ entries:
           description: Bumped version from 2025.11.1 to 2025.11.2
     apiVersion: v2
     appVersion: 2025.11.2
-    created: "2026-01-20T11:37:07.454952097Z"
+    created: "2026-01-20T13:40:54.014153329Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2641,7 +2664,7 @@ entries:
           description: Bumped version from 2025.11.0 to 2025.11.1
     apiVersion: v2
     appVersion: 2025.11.1
-    created: "2026-01-20T11:37:07.289847029Z"
+    created: "2026-01-20T13:40:53.867641102Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2662,7 +2685,7 @@ entries:
           description: Bumped version from 2025.10.5 to 2025.11.0
     apiVersion: v2
     appVersion: 2025.11.0
-    created: "2026-01-20T11:37:07.110656391Z"
+    created: "2026-01-20T13:40:53.708201835Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2683,7 +2706,7 @@ entries:
           description: Bumped version from 2025.10.4 to 2025.10.5
     apiVersion: v2
     appVersion: 2025.10.5
-    created: "2026-01-20T11:37:06.944137374Z"
+    created: "2026-01-20T13:40:53.537762981Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2704,7 +2727,7 @@ entries:
           description: Bumped version from 2025.10.3 to 2025.10.4
     apiVersion: v2
     appVersion: 2025.10.4
-    created: "2026-01-20T11:37:06.744639715Z"
+    created: "2026-01-20T13:40:53.403069864Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2725,7 +2748,7 @@ entries:
           description: Bumped version from 2025.10.2 to 2025.10.3
     apiVersion: v2
     appVersion: 2025.10.3
-    created: "2026-01-20T11:37:06.5805116Z"
+    created: "2026-01-20T13:40:53.240734068Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2746,7 +2769,7 @@ entries:
           description: Bumped version from 2025.10.1 to 2025.10.2
     apiVersion: v2
     appVersion: 2025.10.2
-    created: "2026-01-20T11:37:06.416282791Z"
+    created: "2026-01-20T13:40:53.085573441Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2767,7 +2790,7 @@ entries:
           description: Bumped version from 2025.10.0 to 2025.10.1
     apiVersion: v2
     appVersion: 2025.10.1
-    created: "2026-01-20T11:37:06.25733861Z"
+    created: "2026-01-20T13:40:52.940604537Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2788,7 +2811,7 @@ entries:
           description: Bumped version from 2025.9.3 to 2025.10.0
     apiVersion: v2
     appVersion: 2025.10.0
-    created: "2026-01-20T11:37:06.099364253Z"
+    created: "2026-01-20T13:40:52.783830017Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2809,7 +2832,7 @@ entries:
           description: Bumped version from 2025.9.2 to 2025.9.3
     apiVersion: v2
     appVersion: 2025.9.3
-    created: "2026-01-20T11:37:05.943795147Z"
+    created: "2026-01-20T13:40:52.637373752Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2830,7 +2853,7 @@ entries:
           description: Bumped version from 2025.9.1 to 2025.9.2
     apiVersion: v2
     appVersion: 2025.9.2
-    created: "2026-01-20T11:37:05.784045039Z"
+    created: "2026-01-20T13:40:52.424935205Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2851,7 +2874,7 @@ entries:
           description: Bumped version from 2025.9.0 to 2025.9.1
     apiVersion: v2
     appVersion: 2025.9.1
-    created: "2026-01-20T11:37:05.63117129Z"
+    created: "2026-01-20T13:40:52.266609415Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2872,7 +2895,7 @@ entries:
           description: Bumped version from 2025.8.4 to 2025.9.0
     apiVersion: v2
     appVersion: 2025.9.0
-    created: "2026-01-20T11:37:05.424093185Z"
+    created: "2026-01-20T13:40:52.100374384Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2893,7 +2916,7 @@ entries:
           description: Bumped version from 2025.8.3 to 2025.8.4
     apiVersion: v2
     appVersion: 2025.8.4
-    created: "2026-01-20T11:37:05.270446789Z"
+    created: "2026-01-20T13:40:51.916729589Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2914,7 +2937,7 @@ entries:
           description: Bumped version from 2025.8.2 to 2025.8.3
     apiVersion: v2
     appVersion: 2025.8.3
-    created: "2026-01-20T11:37:05.102813287Z"
+    created: "2026-01-20T13:40:51.760378487Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2935,7 +2958,7 @@ entries:
           description: Bumped version from 2025.8.0 to 2025.8.2
     apiVersion: v2
     appVersion: 2025.8.2
-    created: "2026-01-20T11:37:04.942663484Z"
+    created: "2026-01-20T13:40:51.604909186Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2956,7 +2979,7 @@ entries:
           description: Bumped version from 2025.7.5 to 2025.8.0
     apiVersion: v2
     appVersion: 2025.8.0
-    created: "2026-01-20T11:37:04.77563189Z"
+    created: "2026-01-20T13:40:51.449762683Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2977,7 +3000,7 @@ entries:
           description: changed chart icon
     apiVersion: v2
     appVersion: 2025.7.5
-    created: "2026-01-20T11:37:04.604681285Z"
+    created: "2026-01-20T13:40:51.29567344Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -2998,7 +3021,7 @@ entries:
           description: Bumped version from 2025.7.4 to 2025.7.5
     apiVersion: v2
     appVersion: 2025.7.5
-    created: "2026-01-20T11:37:04.435339593Z"
+    created: "2026-01-20T13:40:51.134973963Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -3019,7 +3042,7 @@ entries:
           description: Bumped version from 2024.10.0 to 2025.7.4
     apiVersion: v2
     appVersion: 2025.7.4
-    created: "2026-01-20T11:37:04.268622867Z"
+    created: "2026-01-20T13:40:50.984267642Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -3040,7 +3063,7 @@ entries:
           description: First version
     apiVersion: v2
     appVersion: 2024.10.0
-    created: "2026-01-20T11:37:04.083077612Z"
+    created: "2026-01-20T13:40:50.796995166Z"
     description: A Helm chart for ESPHome. ESPHome is a system to control your microcontrollers
       by simple yet powerful configuration files and control them remotely through
       Home Automation systems.
@@ -3090,7 +3113,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:13.611756987Z"
+    created: "2026-01-20T13:40:59.856091568Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3137,7 +3160,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:13.454639386Z"
+    created: "2026-01-20T13:40:59.704539387Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3184,7 +3207,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:13.289279773Z"
+    created: "2026-01-20T13:40:59.546765708Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3231,7 +3254,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:13.083534107Z"
+    created: "2026-01-20T13:40:59.382733002Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3278,7 +3301,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:12.930512781Z"
+    created: "2026-01-20T13:40:59.211797198Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3325,7 +3348,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:12.741735434Z"
+    created: "2026-01-20T13:40:59.059615017Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3372,7 +3395,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:12.580938623Z"
+    created: "2026-01-20T13:40:58.900802673Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3419,7 +3442,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:12.418234097Z"
+    created: "2026-01-20T13:40:58.715774417Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3466,7 +3489,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:12.260337476Z"
+    created: "2026-01-20T13:40:58.567358299Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3513,7 +3536,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:12.11239966Z"
+    created: "2026-01-20T13:40:58.399469293Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3561,7 +3584,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:11.947867994Z"
+    created: "2026-01-20T13:40:58.198137031Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3611,7 +3634,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-01-20T11:37:11.783169354Z"
+    created: "2026-01-20T13:40:58.049006098Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3662,7 +3685,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.2.1
-    created: "2026-01-20T11:37:11.439535602Z"
+    created: "2026-01-20T13:40:57.713707429Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3713,7 +3736,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.1.0
-    created: "2026-01-20T11:37:11.07171593Z"
+    created: "2026-01-20T13:40:57.395673479Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3765,7 +3788,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v1.1.0
-    created: "2026-01-20T11:37:10.684446568Z"
+    created: "2026-01-20T13:40:57.056017795Z"
     dependencies:
     - condition: cert-manager.install
       name: cert-manager
@@ -3780,7 +3803,7 @@ entries:
     version: 1.2.1
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2026-01-20T11:37:10.308238617Z"
+    created: "2026-01-20T13:40:56.738654122Z"
     description: An operator managing gitlab runners
     digest: a6e9635da339b96a461fae1b6a7abae1275c634c82b8bca488059c447d1dd95b
     name: gitlab-runner-operator
@@ -3790,7 +3813,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2026-01-20T11:37:10.007114976Z"
+    created: "2026-01-20T13:40:56.433859457Z"
     description: An operator managing gitlab runners
     digest: 6064f2c49b39e7e651ebb7b81b6595a7436bda08ee76456cd7b7f96498305df2
     name: gitlab-runner-operator
@@ -3800,7 +3823,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2026-01-20T11:37:09.65536728Z"
+    created: "2026-01-20T13:40:56.128941713Z"
     description: An operator for gitlab runners
     digest: 6a9c2c8bd14261dfa597ff4f51d1d9e271d11ad5d56b2b4745d256556c7cd366
     name: gitlab-runner-operator
@@ -3820,7 +3843,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2026.1.2
-    created: "2026-01-20T11:37:27.823278753Z"
+    created: "2026-01-20T13:41:13.393178711Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -3849,7 +3872,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2026.1.1
-    created: "2026-01-20T11:37:27.657760189Z"
+    created: "2026-01-20T13:41:13.245963051Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -3876,7 +3899,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2026.1.1
-    created: "2026-01-20T11:37:27.500176965Z"
+    created: "2026-01-20T13:41:13.096000969Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -3903,7 +3926,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2026.1.0
-    created: "2026-01-20T11:37:27.331282592Z"
+    created: "2026-01-20T13:41:12.919695922Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -3930,7 +3953,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.12.5
-    created: "2026-01-20T11:37:27.169894853Z"
+    created: "2026-01-20T13:41:12.761364749Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -3957,7 +3980,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.12.4
-    created: "2026-01-20T11:37:27.003084061Z"
+    created: "2026-01-20T13:41:12.592232278Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -3984,7 +4007,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.12.3
-    created: "2026-01-20T11:37:26.834867673Z"
+    created: "2026-01-20T13:41:12.434878505Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4011,7 +4034,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.12.2
-    created: "2026-01-20T11:37:26.674590052Z"
+    created: "2026-01-20T13:41:12.259871192Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4038,7 +4061,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.12.1
-    created: "2026-01-20T11:37:26.51189211Z"
+    created: "2026-01-20T13:41:12.055469908Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4065,7 +4088,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.12.0
-    created: "2026-01-20T11:37:26.353431556Z"
+    created: "2026-01-20T13:41:11.910278031Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4092,7 +4115,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.11.3
-    created: "2026-01-20T11:37:26.19125341Z"
+    created: "2026-01-20T13:41:11.748188563Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4119,7 +4142,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.11.2
-    created: "2026-01-20T11:37:26.00319708Z"
+    created: "2026-01-20T13:41:11.586805479Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4146,7 +4169,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.11.1
-    created: "2026-01-20T11:37:25.809482437Z"
+    created: "2026-01-20T13:41:11.41575847Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4173,7 +4196,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.11.0
-    created: "2026-01-20T11:37:25.6207913Z"
+    created: "2026-01-20T13:41:11.262859435Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4200,7 +4223,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.10.4
-    created: "2026-01-20T11:37:25.454803305Z"
+    created: "2026-01-20T13:41:11.110345865Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4227,7 +4250,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.10.3
-    created: "2026-01-20T11:37:25.290204647Z"
+    created: "2026-01-20T13:41:10.970879819Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4254,7 +4277,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.10.2
-    created: "2026-01-20T11:37:25.109795953Z"
+    created: "2026-01-20T13:41:10.804691684Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4281,7 +4304,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.10.1
-    created: "2026-01-20T11:37:24.933188427Z"
+    created: "2026-01-20T13:41:10.657578341Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4308,7 +4331,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.10.0
-    created: "2026-01-20T11:37:24.76308599Z"
+    created: "2026-01-20T13:41:10.505461863Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4335,7 +4358,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.9.4
-    created: "2026-01-20T11:37:24.583980219Z"
+    created: "2026-01-20T13:41:10.349348245Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4362,7 +4385,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.9.3
-    created: "2026-01-20T11:37:24.430972714Z"
+    created: "2026-01-20T13:41:10.196336457Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4389,7 +4412,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.9.2
-    created: "2026-01-20T11:37:24.247785024Z"
+    created: "2026-01-20T13:41:10.039281489Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4416,7 +4439,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.9.1
-    created: "2026-01-20T11:37:24.094347359Z"
+    created: "2026-01-20T13:41:09.883685709Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4443,7 +4466,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.9.0
-    created: "2026-01-20T11:37:23.929118845Z"
+    created: "2026-01-20T13:41:09.73077157Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4470,7 +4493,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.8.3
-    created: "2026-01-20T11:37:23.78258811Z"
+    created: "2026-01-20T13:41:09.563324892Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4497,7 +4520,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.8.2
-    created: "2026-01-20T11:37:23.625562405Z"
+    created: "2026-01-20T13:41:09.404455916Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4524,7 +4547,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.8.1
-    created: "2026-01-20T11:37:23.467735675Z"
+    created: "2026-01-20T13:41:09.243750776Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4551,7 +4574,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.8.0
-    created: "2026-01-20T11:37:23.313782262Z"
+    created: "2026-01-20T13:41:09.070977188Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4578,7 +4601,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.7.4
-    created: "2026-01-20T11:37:23.170429299Z"
+    created: "2026-01-20T13:41:08.909090654Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4605,7 +4628,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.7.3
-    created: "2026-01-20T11:37:23.022185196Z"
+    created: "2026-01-20T13:41:08.754902477Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4632,7 +4655,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.1.4
-    created: "2026-01-20T11:37:22.872492263Z"
+    created: "2026-01-20T13:41:08.594842866Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4659,7 +4682,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.1.2
-    created: "2026-01-20T11:37:22.644950228Z"
+    created: "2026-01-20T13:41:08.434833911Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4686,7 +4709,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2025.1.0
-    created: "2026-01-20T11:37:22.45268738Z"
+    created: "2026-01-20T13:41:08.286334899Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4713,7 +4736,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.11.2
-    created: "2026-01-20T11:37:17.358440188Z"
+    created: "2026-01-20T13:41:03.540669894Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4740,7 +4763,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.11.1
-    created: "2026-01-20T11:37:17.195736072Z"
+    created: "2026-01-20T13:41:03.392219314Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4767,7 +4790,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.10.3
-    created: "2026-01-20T11:37:17.033725855Z"
+    created: "2026-01-20T13:41:03.222444813Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4794,7 +4817,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.10.2
-    created: "2026-01-20T11:37:16.867005751Z"
+    created: "2026-01-20T13:41:03.078558333Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4821,7 +4844,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.9.3
-    created: "2026-01-20T11:37:16.709110859Z"
+    created: "2026-01-20T13:41:02.930795315Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4848,7 +4871,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.9.2
-    created: "2026-01-20T11:37:16.544472472Z"
+    created: "2026-01-20T13:41:02.764096562Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4875,7 +4898,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.9.1
-    created: "2026-01-20T11:37:16.395773373Z"
+    created: "2026-01-20T13:41:02.580336206Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4902,7 +4925,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.9.0
-    created: "2026-01-20T11:37:16.22870169Z"
+    created: "2026-01-20T13:41:02.412102417Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4929,7 +4952,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.7.1
-    created: "2026-01-20T11:37:15.440872684Z"
+    created: "2026-01-20T13:41:01.518434915Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4956,7 +4979,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.6.2
-    created: "2026-01-20T11:37:15.271906589Z"
+    created: "2026-01-20T13:41:01.356584289Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -4983,7 +5006,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.6.0
-    created: "2026-01-20T11:37:15.11454514Z"
+    created: "2026-01-20T13:41:01.205770602Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5010,7 +5033,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.5.3
-    created: "2026-01-20T11:37:14.950354848Z"
+    created: "2026-01-20T13:41:01.047780145Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5037,7 +5060,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.4.4
-    created: "2026-01-20T11:37:14.795066415Z"
+    created: "2026-01-20T13:41:00.897608155Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5064,7 +5087,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.3.3
-    created: "2026-01-20T11:37:14.611095099Z"
+    created: "2026-01-20T13:41:00.740141849Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5091,7 +5114,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.3.1
-    created: "2026-01-20T11:37:14.439827394Z"
+    created: "2026-01-20T13:41:00.594325507Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5118,7 +5141,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.2.5
-    created: "2026-01-20T11:37:14.258968254Z"
+    created: "2026-01-20T13:41:00.450213843Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5145,7 +5168,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.2.4
-    created: "2026-01-20T11:37:14.102008626Z"
+    created: "2026-01-20T13:41:00.305778659Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5172,7 +5195,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.2.2
-    created: "2026-01-20T11:37:13.936920013Z"
+    created: "2026-01-20T13:41:00.152862838Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5199,7 +5222,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.2.1
-    created: "2026-01-20T11:37:22.285351311Z"
+    created: "2026-01-20T13:41:08.124332215Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5228,7 +5251,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.2.0
-    created: "2026-01-20T11:37:22.125666436Z"
+    created: "2026-01-20T13:41:07.967328306Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5255,7 +5278,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.1.6
-    created: "2026-01-20T11:37:21.944880237Z"
+    created: "2026-01-20T13:41:07.816320909Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5282,7 +5305,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.1.4
-    created: "2026-01-20T11:37:21.758859952Z"
+    created: "2026-01-20T13:41:07.655365145Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5309,7 +5332,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2024.1.0
-    created: "2026-01-20T11:37:21.585155649Z"
+    created: "2026-01-20T13:41:07.501926021Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5338,7 +5361,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.12.4
-    created: "2026-01-20T11:37:20.196342047Z"
+    created: "2026-01-20T13:41:06.271464785Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5367,7 +5390,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.11.2
-    created: "2026-01-20T11:37:20.026530763Z"
+    created: "2026-01-20T13:41:06.125732744Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5394,7 +5417,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.11.1
-    created: "2026-01-20T11:37:19.850543581Z"
+    created: "2026-01-20T13:41:05.97355623Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5421,7 +5444,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.11.1
-    created: "2026-01-20T11:37:19.697343628Z"
+    created: "2026-01-20T13:41:05.830822888Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5448,7 +5471,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.11.0
-    created: "2026-01-20T11:37:21.412258541Z"
+    created: "2026-01-20T13:41:07.354982029Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5475,7 +5498,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.10.3
-    created: "2026-01-20T11:37:21.229476231Z"
+    created: "2026-01-20T13:41:07.208985532Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5502,7 +5525,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.10.1
-    created: "2026-01-20T11:37:21.06235177Z"
+    created: "2026-01-20T13:41:07.063168616Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5529,7 +5552,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.10.0
-    created: "2026-01-20T11:37:20.897474745Z"
+    created: "2026-01-20T13:41:06.906663083Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5556,7 +5579,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.9.3
-    created: "2026-01-20T11:37:20.732355657Z"
+    created: "2026-01-20T13:41:06.764329773Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5583,7 +5606,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.8.4
-    created: "2026-01-20T11:37:20.56210306Z"
+    created: "2026-01-20T13:41:06.594923237Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5610,7 +5633,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.8.3
-    created: "2026-01-20T11:37:20.393179605Z"
+    created: "2026-01-20T13:41:06.445570875Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5640,7 +5663,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.8.2
-    created: "2026-01-20T11:37:19.554128191Z"
+    created: "2026-01-20T13:41:05.673611629Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5670,7 +5693,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.8.1
-    created: "2026-01-20T11:37:19.409786094Z"
+    created: "2026-01-20T13:41:05.528035432Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5700,7 +5723,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.7.3
-    created: "2026-01-20T11:37:19.244329262Z"
+    created: "2026-01-20T13:41:05.379457657Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5730,7 +5753,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.5.3
-    created: "2026-01-20T11:37:19.085724106Z"
+    created: "2026-01-20T13:41:05.226451592Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5760,7 +5783,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.4.5
-    created: "2026-01-20T11:37:18.911116924Z"
+    created: "2026-01-20T13:41:05.046817892Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5790,7 +5813,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.4.3
-    created: "2026-01-20T11:37:18.706730258Z"
+    created: "2026-01-20T13:41:04.885777305Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5820,7 +5843,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.4.1
-    created: "2026-01-20T11:37:18.49822037Z"
+    created: "2026-01-20T13:41:04.682240568Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5850,7 +5873,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.4.0
-    created: "2026-01-20T11:37:18.300565267Z"
+    created: "2026-01-20T13:41:04.54103499Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5880,7 +5903,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.3.6
-    created: "2026-01-20T11:37:18.175377694Z"
+    created: "2026-01-20T13:41:04.384464319Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5910,7 +5933,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.3.5
-    created: "2026-01-20T11:37:18.00617813Z"
+    created: "2026-01-20T13:41:04.208581708Z"
     description: |
       HomeAssistant is an open source home automation that puts local control and privacy first.
       Powered by a worldwide community of tinkerers and DIY enthusiasts.
@@ -5940,7 +5963,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.3.3
-    created: "2026-01-20T11:37:17.838082494Z"
+    created: "2026-01-20T13:41:04.03701454Z"
     description: "HomeAssistant is an open source home automation that puts local
       control and privacy first. \nPowered by a worldwide community of tinkerers and
       DIY enthusiasts. \nPerfect to run on a Raspberry Pi or a local server.\n"
@@ -5969,7 +5992,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.3.3
-    created: "2026-01-20T11:37:17.677869929Z"
+    created: "2026-01-20T13:41:03.887962057Z"
     description: "HomeAssistant is an open source home automation that puts local
       control and privacy first. \nPowered by a worldwide community of tinkerers and
       DIY enthusiasts. \nPerfect to run on a Raspberry Pi or a local server.\n"
@@ -5997,7 +6020,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.3.1
-    created: "2026-01-20T11:37:17.516800023Z"
+    created: "2026-01-20T13:41:03.730694457Z"
     description: "HomeAssistant is an open source home automation that puts local
       control and privacy first. \nPowered by a worldwide community of tinkerers and
       DIY enthusiasts. \nPerfect to run on a Raspberry Pi or a local server.\n"
@@ -6025,7 +6048,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.2.4
-    created: "2026-01-20T11:37:16.072920152Z"
+    created: "2026-01-20T13:41:02.24294746Z"
     description: "HomeAssistant is an open source home automation that puts local
       control and privacy first. \nPowered by a worldwide community of tinkerers and
       DIY enthusiasts. \nPerfect to run on a Raspberry Pi or a local server.\n"
@@ -6053,7 +6076,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: ' 2023.1.4'
-    created: "2026-01-20T11:37:15.745881917Z"
+    created: "2026-01-20T13:41:01.928188709Z"
     description: "HomeAssistant is an open source home automation that puts local
       control and privacy first. \nPowered by a worldwide community of tinkerers and
       DIY enthusiasts. \nPerfect to run on a Raspberry Pi or a local server.\n"
@@ -6081,7 +6104,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: 2023.1.2
-    created: "2026-01-20T11:37:15.592823928Z"
+    created: "2026-01-20T13:41:01.694114464Z"
     description: "Home Assistant is an open source home automation that puts local
       control and privacy first. \nPowered by a worldwide community of tinkerers and
       DIY enthusiasts. \nPerfect to run on a Raspberry Pi or a local server.\n"
@@ -6105,7 +6128,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/home-assistant
     apiVersion: v2
     appVersion: "2022.10"
-    created: "2026-01-20T11:37:13.771521255Z"
+    created: "2026-01-20T13:41:00.006548597Z"
     description: "Home Assistant is an open source home automation that puts local
       control and privacy first. \nPowered by a worldwide community of tinkerers and
       DIY enthusiasts. \nPerfect to run on a Raspberry Pi or a local server.\n"
@@ -6123,7 +6146,7 @@ entries:
           description: Bumped version from 10.11.5 to 10.11.6
     apiVersion: v2
     appVersion: 10.11.6
-    created: "2026-01-20T11:37:32.846527187Z"
+    created: "2026-01-20T13:41:15.14673359Z"
     description: A Helm chart for Kubernetes
     digest: 65bfc40cf2283fb821c6f5e0c9e0fe645dc6fd4fba742663fd7211929efda2ee
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
@@ -6146,7 +6169,7 @@ entries:
           description: Bumped version from 10.11.4 to 10.11.5
     apiVersion: v2
     appVersion: 10.11.5
-    created: "2026-01-20T11:37:32.68734336Z"
+    created: "2026-01-20T13:41:14.96636634Z"
     description: A Helm chart for Kubernetes
     digest: d46e36ad0c8638c544ad3d58b9002a4b0c1c42ac44c989cb4727f9ff0632124f
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
@@ -6169,7 +6192,7 @@ entries:
           description: Bumped version from 10.11.3 to 10.11.4
     apiVersion: v2
     appVersion: 10.11.4
-    created: "2026-01-20T11:37:32.520704714Z"
+    created: "2026-01-20T13:41:14.802451637Z"
     description: A Helm chart for Kubernetes
     digest: f0cba80772502cda69a163982695243a8f1c33646a67aae29d5254a56ef837d3
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
@@ -6192,7 +6215,7 @@ entries:
           description: Bumped version from 10.11.2 to 10.11.3
     apiVersion: v2
     appVersion: 10.11.3
-    created: "2026-01-20T11:37:29.34964175Z"
+    created: "2026-01-20T13:41:14.647500809Z"
     description: A Helm chart for Kubernetes
     digest: 02373e5abf52ce01f74086e6879da7bb464a99d98f550ccff18d6209c8791b38
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
@@ -6215,7 +6238,7 @@ entries:
           description: Bumped version from 10.11.1 to 10.11.2
     apiVersion: v2
     appVersion: 10.11.2
-    created: "2026-01-20T11:37:28.950855247Z"
+    created: "2026-01-20T13:41:14.502352935Z"
     description: A Helm chart for Kubernetes
     digest: e02e17891c72071b1f46f8f1c910714cbe33103a12601e3268c00551aec137f5
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
@@ -6238,7 +6261,7 @@ entries:
           description: Bumped version from 10.11.0 to 10.11.1
     apiVersion: v2
     appVersion: 10.11.1
-    created: "2026-01-20T11:37:28.792761455Z"
+    created: "2026-01-20T13:41:14.333568408Z"
     description: A Helm chart for Kubernetes
     digest: d51e0835df57db5c4a32b577f39b77bf7e135331e6e31d3eeeb499646cd63951
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
@@ -6261,7 +6284,7 @@ entries:
           description: Bumped version from 10.10.7 to 10.11.0
     apiVersion: v2
     appVersion: 10.11.0
-    created: "2026-01-20T11:37:28.615993721Z"
+    created: "2026-01-20T13:41:14.181073607Z"
     description: A Helm chart for Kubernetes
     digest: 622335262929704956615e55c151646be565346aa3d5ad593b4471da80911d65
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
@@ -6284,7 +6307,7 @@ entries:
           description: Bump to 10.10.7
     apiVersion: v2
     appVersion: 10.10.7
-    created: "2026-01-20T11:37:28.457045703Z"
+    created: "2026-01-20T13:41:14.009346334Z"
     description: A Helm chart for Kubernetes
     digest: 6afae060eae03979f92877c88b20889b91e6e8deb71478922b9ece6ccfdb17ad
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
@@ -6307,7 +6330,7 @@ entries:
           description: Bump to 10.10.1
     apiVersion: v2
     appVersion: 10.10.1
-    created: "2026-01-20T11:37:28.297171885Z"
+    created: "2026-01-20T13:41:13.860103157Z"
     description: A Helm chart for Kubernetes
     digest: 447ba0783e94ab702f4889393b272dbf3b380428e5529431d4567632f0f22868
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
@@ -6330,7 +6353,7 @@ entries:
           description: Bump to 10.10.0
     apiVersion: v2
     appVersion: 10.10.0
-    created: "2026-01-20T11:37:28.143166024Z"
+    created: "2026-01-20T13:41:13.709764593Z"
     description: A Helm chart for Kubernetes
     digest: 3bdaffd887811066d818d452b707c182c8ca4132f5f17dde8a4930c479c7e369
     icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/jellyfin-logo.png
@@ -6353,7 +6376,7 @@ entries:
           description: Bump to 10.9.11
     apiVersion: v2
     appVersion: 10.9.11
-    created: "2026-01-20T11:37:27.980541481Z"
+    created: "2026-01-20T13:41:13.545673871Z"
     description: A Helm chart for Kubernetes
     digest: 8e8e0d5d76a9b61e9c18f0bae37dc40144c3c0e174cf528842aae8f4f362024f
     icon: logo.png
@@ -6373,7 +6396,7 @@ entries:
   kpubber:
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2026-01-20T11:37:34.166593193Z"
+    created: "2026-01-20T13:41:16.355021759Z"
     description: Annotation service for tagging kubernetes nodes with their public
       ip
     digest: d98e7b7b4d23ec32f154a0844797a378de1c3e1b702d2402dc5ff575cfcf6d74
@@ -6384,7 +6407,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2026-01-20T11:37:33.840585258Z"
+    created: "2026-01-20T13:41:16.055011832Z"
     description: Annotation service for tagging kubernetes nodes with their public
       ip
     digest: 49807cb88fa813d7d63d350827f6f8797ba3c875bc2853e3fae15f539bb10caa
@@ -6395,7 +6418,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: v0.0.2
-    created: "2026-01-20T11:37:33.501814457Z"
+    created: "2026-01-20T13:41:15.747245807Z"
     description: Annotation service for tagging kubernetes nodes with their public
       ip
     digest: 34897ad4c6b9fa4e970f660e92928e4315980d4e9dea817bdd4915a3751959d9
@@ -6406,7 +6429,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2026-01-20T11:37:33.173741772Z"
+    created: "2026-01-20T13:41:15.457646436Z"
     description: Annotation service for tagging kubernetes nodes with their public
       ip
     digest: f5cd1ff3394561bf9e14e7e0b99a6f349bcb218205f4d477f215edbf9fef5906
@@ -6417,7 +6440,7 @@ entries:
     version: 0.0.1
   kube-prometheus-stack-crd:
   - apiVersion: v2
-    created: "2026-01-20T11:37:34.869721355Z"
+    created: "2026-01-20T13:41:16.984755728Z"
     description: Custom Resource Definitions for kubernetes prometheus stack
     digest: 7c549ae26b42c1cc33dc378c512605151286eac253770d06f9d385a056cbc80c
     name: kube-prometheus-stack-crd
@@ -6427,7 +6450,7 @@ entries:
     version: 49.0.0
   - apiVersion: v2
     appVersion: 0.58.0
-    created: "2026-01-20T11:37:34.701554187Z"
+    created: "2026-01-20T13:41:16.843322781Z"
     description: Custom Resource Definitions for kubernetes prometheus stack
     digest: e7dc560c889f65a80cc35d94f835a86a5d330d9532c0b68f8eb77799eee8cadc
     name: kube-prometheus-stack-crd
@@ -6437,7 +6460,7 @@ entries:
     version: 39.0.0
   - apiVersion: v2
     appVersion: 0.54.1
-    created: "2026-01-20T11:37:34.539183162Z"
+    created: "2026-01-20T13:41:16.694317947Z"
     description: Custom Resource Definitions for kubernetes prometheus stack
     digest: c2ef27da8dd466986a9464c39c77b408f804bc7ebd33d4ce91948337e1ce2733
     name: kube-prometheus-stack-crd
@@ -6447,7 +6470,7 @@ entries:
     version: 33.2.0
   local-storage:
   - apiVersion: v2
-    created: "2026-01-20T11:37:35.201088236Z"
+    created: "2026-01-20T13:41:17.29791Z"
     description: A Helm chart for Kubernetes
     digest: c62c6b3495db86c553e794e2531fc9cd44b1131bc049aab86a21da031dbdf683
     name: local-storage
@@ -6458,7 +6481,7 @@ entries:
   mikrotik-exporter:
   - apiVersion: v2
     appVersion: v1.1.2
-    created: "2026-01-20T11:37:35.386063164Z"
+    created: "2026-01-20T13:41:17.509783365Z"
     description: A Helm chart for Kubernetes
     digest: f6ce9319c6737c70a6bfe7c51fad28156a87d0e8a9a2ca515cf8bd3a5fe8aa8c
     name: mikrotik-exporter
@@ -6478,7 +6501,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.18.1
-    created: "2026-01-20T11:37:37.533223451Z"
+    created: "2026-01-20T13:41:19.555872549Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6511,7 +6534,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.18.0
-    created: "2026-01-20T11:37:37.376055749Z"
+    created: "2026-01-20T13:41:19.3959071Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6544,7 +6567,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.17.4
-    created: "2026-01-20T11:37:37.20763085Z"
+    created: "2026-01-20T13:41:19.248184002Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6577,7 +6600,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.17.4
-    created: "2026-01-20T11:37:37.051886058Z"
+    created: "2026-01-20T13:41:19.042159716Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6610,7 +6633,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.17.4
-    created: "2026-01-20T11:37:36.899191351Z"
+    created: "2026-01-20T13:41:18.899104509Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6643,7 +6666,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.17.4
-    created: "2026-01-20T11:37:36.727750262Z"
+    created: "2026-01-20T13:41:18.750273692Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6676,7 +6699,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.17.3
-    created: "2026-01-20T11:37:36.555389114Z"
+    created: "2026-01-20T13:41:18.587008563Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6715,7 +6738,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.17.3
-    created: "2026-01-20T11:37:36.395346191Z"
+    created: "2026-01-20T13:41:18.430136619Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6748,7 +6771,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.14.5
-    created: "2026-01-20T11:37:36.230191538Z"
+    created: "2026-01-20T13:41:18.280347039Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6781,7 +6804,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.14.5
-    created: "2026-01-20T11:37:36.060206544Z"
+    created: "2026-01-20T13:41:18.130041602Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6817,7 +6840,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: v0.14.4
-    created: "2026-01-20T11:37:35.876592326Z"
+    created: "2026-01-20T13:41:17.968401568Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6853,7 +6876,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: 0.14.1
-    created: "2026-01-20T11:37:35.716957558Z"
+    created: "2026-01-20T13:41:17.816181992Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6889,7 +6912,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/nvidia-device-plugin
     apiVersion: v2
     appVersion: 0.14.0
-    created: "2026-01-20T11:37:35.547088659Z"
+    created: "2026-01-20T13:41:17.655211025Z"
     dependencies:
     - alias: nfd
       condition: nfd.enabled,gfd.enabled
@@ -6921,7 +6944,7 @@ entries:
           image: ubuntu:latest
     apiVersion: v2
     appVersion: 2.1.3
-    created: "2026-01-20T11:37:38.320936871Z"
+    created: "2026-01-20T13:41:20.344482891Z"
     description: A Helm chart for Kubernetes
     digest: 9c2ca76ccf0b03f962fdf6cfca9f31ed53e8c5e576f85b7192aef121b56be15f
     icon: https://www.eksworkshop.com/images/helm-logo.svg
@@ -6943,7 +6966,7 @@ entries:
           image: ubuntu:latest
     apiVersion: v2
     appVersion: 2.1.2
-    created: "2026-01-20T11:37:38.163721807Z"
+    created: "2026-01-20T13:41:20.200220206Z"
     description: A Helm chart for Kubernetes
     digest: be1f75a0c0fb13500469acbb21f7e865ffb1655f0429eae7a49bfc21fdf3fab3
     icon: https://www.eksworkshop.com/images/helm-logo.svg
@@ -6965,7 +6988,7 @@ entries:
           image: ubuntu:latest
     apiVersion: v2
     appVersion: 2.1.1
-    created: "2026-01-20T11:37:38.007352024Z"
+    created: "2026-01-20T13:41:20.037096102Z"
     description: A Helm chart for Kubernetes
     digest: 3b0723dc152e0cac61d1da74239c32529ffa90471bd6946c241faef504fd8f32
     icon: https://www.eksworkshop.com/images/helm-logo.svg
@@ -6987,7 +7010,7 @@ entries:
           image: ubuntu:latest
     apiVersion: v2
     appVersion: 2.1.1
-    created: "2026-01-20T11:37:37.852095726Z"
+    created: "2026-01-20T13:41:19.861058959Z"
     description: A Helm chart for Kubernetes
     digest: 6982e9eac4aa7c23319aadb73d3b367ff21d290b62d4576f3ec0058c21297b73
     icon: https://www.eksworkshop.com/images/helm-logo.svg
@@ -7009,7 +7032,7 @@ entries:
           image: ubuntu:latest
     apiVersion: v2
     appVersion: 2.0.0
-    created: "2026-01-20T11:37:37.6990532Z"
+    created: "2026-01-20T13:41:19.710610512Z"
     description: A Helm chart for Kubernetes
     digest: ac9ba03948675de6faebe6575524115d3230b1be968a37ca56e2fa87a63b44f1
     icon: https://www.eksworkshop.com/images/helm-logo.svg
@@ -7029,7 +7052,7 @@ entries:
           description: Bumped version from 5.2.2 to 5.2.3
     apiVersion: v2
     appVersion: 5.2.3-apache
-    created: "2026-01-20T11:37:39.171641056Z"
+    created: "2026-01-20T13:41:21.114344853Z"
     description: A Helm chart for official phpmyadmin docker image
     digest: 5e7b5e74b1e40658fd18b3a6f3b694fe8a4597681d1d559591422997d6c7ba9d
     name: phpmyadmin
@@ -7043,7 +7066,7 @@ entries:
           description: Bumped version from 5.2.1 to 5.2.2
     apiVersion: v2
     appVersion: 5.2.2-apache
-    created: "2026-01-20T11:37:39.016378468Z"
+    created: "2026-01-20T13:41:20.939358831Z"
     description: A Helm chart for official phpmyadmin docker image
     digest: 281cc1e39ca829a066c2835a98c0040b9a2eee5e750599a0de913c4bac79df15
     name: phpmyadmin
@@ -7053,7 +7076,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 5.2.1-apache
-    created: "2026-01-20T11:37:38.859326716Z"
+    created: "2026-01-20T13:41:20.789056648Z"
     description: A Helm chart for official phpmyadmin docker image
     digest: f6c4254937ea6513a9796ba433af6af321df8bba23e34764197fc578d0557a02
     name: phpmyadmin
@@ -7063,7 +7086,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 5.1.3-apache
-    created: "2026-01-20T11:37:38.694653632Z"
+    created: "2026-01-20T13:41:20.638667845Z"
     description: A Helm chart for official phpmyadmin docker image
     digest: cfdebe59b38dbfc1ef1bf088bbe1151d1bbae3ef51f704bcac92af7a2e1f57e0
     name: phpmyadmin
@@ -7079,7 +7102,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.42.2
-    created: "2026-01-20T11:37:41.287332819Z"
+    created: "2026-01-20T13:41:22.894676429Z"
     description: Plex Media Server Helm chart
     digest: bafd92fa578540765408ebb4e532e639387d81ecf198c940fd1dc0f03faa9bf4
     home: https://www.plex.tv
@@ -7108,7 +7131,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.42.1
-    created: "2026-01-20T11:37:41.057815066Z"
+    created: "2026-01-20T13:41:22.744021592Z"
     description: Plex Media Server Helm chart
     digest: 7790b2254d8471d21151c1de3f21b524b6ca7e34c597def962b8786b50ab034d
     home: https://www.plex.tv
@@ -7137,7 +7160,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.41.9
-    created: "2026-01-20T11:37:40.851802345Z"
+    created: "2026-01-20T13:41:22.60074904Z"
     description: Plex Media Server Helm chart
     digest: f17a7b62c8a1ce68825a3c4a393b27f7b19d386d0ee2bd63ecacb513e7038ba2
     home: https://www.plex.tv
@@ -7166,7 +7189,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.40.4
-    created: "2026-01-20T11:37:40.665629336Z"
+    created: "2026-01-20T13:41:22.439774482Z"
     description: Plex Media Server Helm chart
     digest: 8f5c6c4737b57481ddf305acfba720ec52ca1a3c4f85f68e41682b11af39e660
     home: https://www.plex.tv
@@ -7195,7 +7218,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.40.2
-    created: "2026-01-20T11:37:40.462232009Z"
+    created: "2026-01-20T13:41:22.295089013Z"
     description: Plex Media Server Helm chart
     digest: afccf52be2ba2e05e887ef94f776d7796fcf5f06a8a4ca2bacab90c9125432e8
     home: https://www.plex.tv
@@ -7224,7 +7247,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.40.1
-    created: "2026-01-20T11:37:40.273060631Z"
+    created: "2026-01-20T13:41:22.129257593Z"
     description: Plex Media Server Helm chart
     digest: e8d71e56ccd07da07b830223b12f874a0291c4e729e6eadf301684c6d4f79e38
     home: https://www.plex.tv
@@ -7253,7 +7276,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.32.8
-    created: "2026-01-20T11:37:40.084216452Z"
+    created: "2026-01-20T13:41:21.95632904Z"
     description: Plex Media Server Helm chart
     digest: 2afba2b22475cce3ab659af93dfdeaeb3f048e27445ef689ac3aaefea4f07b46
     home: https://www.plex.tv
@@ -7282,7 +7305,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.32.7
-    created: "2026-01-20T11:37:39.901742582Z"
+    created: "2026-01-20T13:41:21.802877487Z"
     description: Plex Media Server Helm chart
     digest: ba1bae2e385af52fbb49d01f3ea9b42e5b96a7d96103306f9ae8122c84acee37
     home: https://www.plex.tv
@@ -7313,7 +7336,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.32.6
-    created: "2026-01-20T11:37:39.679781107Z"
+    created: "2026-01-20T13:41:21.639751168Z"
     description: Plex Media Server Helm chart
     digest: bc078afbbbd9e33aea3337421dfd687d50d395c3c069269e2915d3c55b31004c
     home: https://www.plex.tv
@@ -7342,7 +7365,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.32.5
-    created: "2026-01-20T11:37:39.519858375Z"
+    created: "2026-01-20T13:41:21.454669677Z"
     description: Plex Media Server Helm chart
     digest: 13111aec22d332c795ac188baef47f64a32ce5ec80a82e9275945cc6205750fc
     home: https://www.plex.tv
@@ -7374,7 +7397,7 @@ entries:
       artifacthub.io/license: MIT
     apiVersion: v2
     appVersion: 1.32.4
-    created: "2026-01-20T11:37:39.33851679Z"
+    created: "2026-01-20T13:41:21.279539064Z"
     description: Plex Media Server Helm chart
     digest: a8990c3f8cdd37fdb86b5a36976782031869104fd31502b6c13f232215ebbecf
     home: https://www.plex.tv
@@ -7406,7 +7429,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-2.3.0.5236
-    created: "2026-01-20T11:37:46.415721154Z"
+    created: "2026-01-20T13:41:26.417318348Z"
     description: Hotio prowlarr helm chart
     digest: ae27209b715e619016d47845ee3a08bc7400582c4418e5cb66583801cc8bf7d8
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7424,7 +7447,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-2.1.5.5216
-    created: "2026-01-20T11:37:46.216940726Z"
+    created: "2026-01-20T13:41:26.266226257Z"
     description: Hotio prowlarr helm chart
     digest: 8b4932bad26b716c4b59b0bdb515ccb2f0ab12ff42d4ad427a1a1d731222e341
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7442,7 +7465,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-2.0.5.5160
-    created: "2026-01-20T11:37:46.03279607Z"
+    created: "2026-01-20T13:41:26.117255952Z"
     description: Hotio prowlarr helm chart
     digest: 90356dd111718ec65d9fa1f56de4ab873f20d342a7c4c06b4a9ec9aa95b6d675
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7460,7 +7483,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.37.0.5076
-    created: "2026-01-20T11:37:43.797433135Z"
+    created: "2026-01-20T13:41:24.526398972Z"
     description: Hotio prowlarr helm chart
     digest: 7eb7e1cca89bb849d7320d3eec99532ffb510af1e9861f32ec0be33e79f17277
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7480,7 +7503,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.34.1.5021
-    created: "2026-01-20T11:37:43.52667375Z"
+    created: "2026-01-20T13:41:24.360663055Z"
     description: Hotio prowlarr helm chart
     digest: a5a2a89775ee8a145a1689d7a40379e726d8ad10afe1a4d974205c5df12c0f2b
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7500,7 +7523,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.34.1.5021
-    created: "2026-01-20T11:37:42.735717146Z"
+    created: "2026-01-20T13:41:24.213337957Z"
     description: Hotio prowlarr helm chart
     digest: 3e5796b3c6cabcb0be63154244e2c0ae994c8d0c44dd077ab0f61a5111792a2d
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7520,7 +7543,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.30.2.4939
-    created: "2026-01-20T11:37:42.553631934Z"
+    created: "2026-01-20T13:41:24.066352689Z"
     description: Hotio prowlarr helm chart
     digest: 712fd0d4a35369d4a0586e7dac26bde54e6d15d7bb194f19ccc85cd6ae10b7cc
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7538,7 +7561,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.25.4.4818
-    created: "2026-01-20T11:37:42.39560875Z"
+    created: "2026-01-20T13:41:23.899347143Z"
     description: Hotio prowlarr helm chart
     digest: 1be42196738c1b053a402c1d831bcc3570bf1a947771c6b2c622e830fb0ceb7a
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7556,7 +7579,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.24.3.4754
-    created: "2026-01-20T11:37:42.185543934Z"
+    created: "2026-01-20T13:41:23.743795213Z"
     description: Hotio prowlarr helm chart
     digest: 68e0cf7d6c96c828664085179b6900808e98725b9104754883d0710c59656cdb
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7574,7 +7597,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.18.0.4543
-    created: "2026-01-20T11:37:45.848822957Z"
+    created: "2026-01-20T13:41:25.967362452Z"
     description: Hotio prowlarr helm chart
     digest: d4b99a778efe5c9463ebf1194a8fe527f074b27996e6922a6a6076ec4e9324e4
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7592,7 +7615,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.14.3.4333
-    created: "2026-01-20T11:37:45.642362567Z"
+    created: "2026-01-20T13:41:25.813163425Z"
     description: Hotio prowlarr helm chart
     digest: df926fefe6b7389b6c8fd42ed48c2d2e33e068e562442fef53bd31695929b3c1
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7610,7 +7633,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.13.3.4273
-    created: "2026-01-20T11:37:45.443525609Z"
+    created: "2026-01-20T13:41:25.634121478Z"
     description: Hotio prowlarr helm chart
     digest: 61f85a269f0793c20fcd99aa2a6c589677ab6115969edc989eb1344cc3590610
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7628,7 +7651,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.12.2.4211
-    created: "2026-01-20T11:37:45.224229113Z"
+    created: "2026-01-20T13:41:25.475934077Z"
     description: Hotio prowlarr helm chart
     digest: ea60a349860f5425bed19e5a9ed28bf275b4c2dcfd87ab8e30981b916d3e6798
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7646,7 +7669,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.11.4.4173
-    created: "2026-01-20T11:37:44.977332164Z"
+    created: "2026-01-20T13:41:25.326588151Z"
     description: Hotio prowlarr helm chart
     digest: bf7098c4393fc78accf13876f1ba5e017ebb2bab009b574df781b863ecb02ca2
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7664,7 +7687,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.10.5.4116
-    created: "2026-01-20T11:37:44.769036701Z"
+    created: "2026-01-20T13:41:25.139700946Z"
     description: Hotio prowlarr helm chart
     digest: 91f883cafecf146e17c86aefbb36c5281bebb450e58a29a5a488509fb1b6d620
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7682,7 +7705,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.9.4.4039
-    created: "2026-01-20T11:37:44.486111012Z"
+    created: "2026-01-20T13:41:24.986448642Z"
     description: Hotio prowlarr helm chart
     digest: 3b7615f8a01e93c8ba16bf02ebab7f95075c52af39fce1035811c28ce72e4579
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7700,7 +7723,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.8.6.3946
-    created: "2026-01-20T11:37:44.227642417Z"
+    created: "2026-01-20T13:41:24.839472768Z"
     description: Hotio prowlarr helm chart
     digest: e4a79e40a7302eb1562acd3a9aaefd3b7ee3bbb13ad29674e7e723aa26aa9bc3
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7721,7 +7744,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.7.4.3769
-    created: "2026-01-20T11:37:43.950323697Z"
+    created: "2026-01-20T13:41:24.681449261Z"
     description: Hotio prowlarr helm chart
     digest: 27585ba4a9daef4d1866a05c75e442c452d8c4ca9eef52bce6617f5500cdebf3
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7741,7 +7764,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.2.2.2699
-    created: "2026-01-20T11:37:42.019180891Z"
+    created: "2026-01-20T13:41:23.562898305Z"
     description: Hotio prowlarr helm chart
     digest: 855ccf8ee996fc2587e85cd6fa2489cf5b032a6462a74d901b2b2333fd0e91fb
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7762,7 +7785,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/prowlarr
     apiVersion: v2
     appVersion: release-1.1.3.2521
-    created: "2026-01-20T11:37:41.861152346Z"
+    created: "2026-01-20T13:41:23.429816594Z"
     description: Hotio prowlarr helm chart
     digest: 609ee2e931e1ddbe42d45ba4b4f5ec4f60db4d5ee559469944aed039e5022adc
     icon: https://hotio.dev/img/image-logos/prowlarr.svg
@@ -7773,7 +7796,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.3.0-develop
-    created: "2026-01-20T11:37:41.686460586Z"
+    created: "2026-01-20T13:41:23.213456854Z"
     description: Linux Server prowlarr helm chart
     digest: 4cfefe07202552a8657a26d6b9112c800561a3446516d2a2859564fc564aadea
     name: prowlarr
@@ -7793,7 +7816,7 @@ entries:
           url: https://hotio.dev/containers/qbittorrent/
     apiVersion: v2
     appVersion: 4.6.2-1
-    created: "2026-01-20T11:37:48.92979754Z"
+    created: "2026-01-20T13:41:28.297604849Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: ac9c33ae8265bce7d18b817d17fafa6d6bb4000fd58376ecde2b9c39068136c2
     icon: https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg
@@ -7815,7 +7838,7 @@ entries:
           url: https://hotio.dev/containers/qbittorrent/
     apiVersion: v2
     appVersion: 4.6.2-1
-    created: "2026-01-20T11:37:48.722734873Z"
+    created: "2026-01-20T13:41:28.149187503Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: 1328d315a3e6fd3d1e27dd289f153802388df84c433c04bfd9e9a39ce67acda6
     icon: https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg
@@ -7835,7 +7858,7 @@ entries:
           url: https://hotio.dev/containers/qbittorrent/
     apiVersion: v2
     appVersion: 4.6.2
-    created: "2026-01-20T11:37:48.508678196Z"
+    created: "2026-01-20T13:41:27.974328475Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: 631a262432ac99d94de764a7414ea6365b2911002cccd5dbb69428e2b2b4aba5
     icon: https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg
@@ -7855,7 +7878,7 @@ entries:
           url: https://hotio.dev/containers/qbittorrent/
     apiVersion: v2
     appVersion: 4.6.2
-    created: "2026-01-20T11:37:48.287512859Z"
+    created: "2026-01-20T13:41:27.830750923Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: bcbabd71efd9b2200fda29c35db958eeb89c4c48bffcd7d528070c0833078ce1
     icon: https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg
@@ -7879,7 +7902,7 @@ entries:
           url: https://hotio.dev/containers/qbittorrent/
     apiVersion: v2
     appVersion: 4.6.2
-    created: "2026-01-20T11:37:48.046622529Z"
+    created: "2026-01-20T13:41:27.659445372Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: 8a1a994b9759421cbc4718b1ff9ec043de687806565de496512b21deb7bc6ae6
     icon: https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg
@@ -7897,7 +7920,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/qbittorrent
     apiVersion: v2
     appVersion: 4.6.0
-    created: "2026-01-20T11:37:47.612602136Z"
+    created: "2026-01-20T13:41:27.339236073Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: 1d033513dbc6467f2e557e4a2e4ccd54759e5ca49d436d0e47ef677e3485df1f
     icon: https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg
@@ -7915,7 +7938,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/qbittorrent
     apiVersion: v2
     appVersion: 4.5.5
-    created: "2026-01-20T11:37:47.391603719Z"
+    created: "2026-01-20T13:41:27.181604015Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: cb53715e13becee3d52c079d9b181db4f32b46130e9e3dd316577cdd2bb5355c
     icon: https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg
@@ -7936,7 +7959,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/qbittorrent
     apiVersion: v2
     appVersion: 4.5.4
-    created: "2026-01-20T11:37:47.210260004Z"
+    created: "2026-01-20T13:41:27.027589719Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: e2877604646e20e208c5516ea21761b7a4242ba03fb26399e2cb114732586faf
     icon: https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg
@@ -7947,7 +7970,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 4.5.2
-    created: "2026-01-20T11:37:47.018436199Z"
+    created: "2026-01-20T13:41:26.874033138Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: a9c6889803c1b893ae75393f9c36cc2f19a39424471bf2d1fa1ef7e763214006
     name: qbittorrent
@@ -7957,7 +7980,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 4.5.2
-    created: "2026-01-20T11:37:46.789167303Z"
+    created: "2026-01-20T13:41:26.723758777Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: fecf2346a17c408e261af4589502e99068ddec9c0bc725e708710ae4544d9a23
     name: qbittorrent
@@ -7967,7 +7990,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 4.4.2
-    created: "2026-01-20T11:37:46.60851834Z"
+    created: "2026-01-20T13:41:26.578211686Z"
     description: A Helm chart for Kubernetes based on linuxserver/qbittorrent.
     digest: c84afd2eeb279a1bc15f940a57b764880d37061cb8f93f0458afdc2306afc393
     name: qbittorrent
@@ -7990,7 +8013,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.18.0
-    created: "2026-01-20T11:37:51.623643411Z"
+    created: "2026-01-20T13:41:30.264142045Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: fab136d464d27f4859a763234066befb02974203b2617093e476a7a491abfd39
@@ -8018,7 +8041,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.17.2
-    created: "2026-01-20T11:37:51.364515257Z"
+    created: "2026-01-20T13:41:30.121856806Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: 12093049e48e8f93922cd3933512c8bcd1529294b815cc8a75ec5fc207bf0666
@@ -8046,7 +8069,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.17.2
-    created: "2026-01-20T11:37:51.092181595Z"
+    created: "2026-01-20T13:41:29.96420949Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: febd4cee303260a52a76948e0b6fe269b60dac5087ad5b635d980df2895e2028
@@ -8074,7 +8097,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.17.2
-    created: "2026-01-20T11:37:50.839095731Z"
+    created: "2026-01-20T13:41:29.81854782Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: b86423c9efc6e603fe7312026364729fb07832f8f3f1054512f418365580383b
@@ -8102,7 +8125,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-01-20T11:37:50.628982482Z"
+    created: "2026-01-20T13:41:29.673612361Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: d842e98525475c755977a1d256a5be33a36f34c4a879eb477c71499589f71bc8
@@ -8130,7 +8153,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.17.0
-    created: "2026-01-20T11:37:50.454549538Z"
+    created: "2026-01-20T13:41:29.516922592Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: 175080a20848b6042a16db93485720897a7cd8789125697e26d6ddc89f004116
@@ -8158,7 +8181,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.16.1
-    created: "2026-01-20T11:37:50.241854679Z"
+    created: "2026-01-20T13:41:29.356372838Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: 281df3ee0591a65bab13ea25dbcf944b3d4796803a1dba5ae17d7fd278de40ec
@@ -8186,7 +8209,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.16.0
-    created: "2026-01-20T11:37:50.057756092Z"
+    created: "2026-01-20T13:41:29.231369645Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: 013a97bdded8786baffef25185b76e41013e638ba91d7adb5d467f5c2bf16922
@@ -8214,7 +8237,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.15.0
-    created: "2026-01-20T11:37:49.863247513Z"
+    created: "2026-01-20T13:41:29.083910325Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: ec78466606bfa32853e3846faa54b0a4e51fc1083e76f55e18c9f299df159d00
@@ -8242,7 +8265,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.7.0
-    created: "2026-01-20T11:37:49.708597212Z"
+    created: "2026-01-20T13:41:28.914877442Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: d371b0977c02c4d3f7ac37dbe794f76c9ead0c5e532531375bb19c6abdcad1b3
@@ -8270,7 +8293,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.2.0
-    created: "2026-01-20T11:37:49.533777081Z"
+    created: "2026-01-20T13:41:28.75947686Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: f3b250ed7b0a26698d42d847b08bd85bec775da76f7c79b26ac6119dbeff9a82
@@ -8297,7 +8320,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/rabbitmq-cluster-operator
     apiVersion: v2
     appVersion: 2.1.0
-    created: "2026-01-20T11:37:49.284328865Z"
+    created: "2026-01-20T13:41:28.601543058Z"
     description: A Helm chart for RabbitMQ Cluster Operator. Generated from the official
       yaml
     digest: ac1954fb41e1ee499c39e725dba424031119f1c7386f435198601670aa103e05
@@ -8321,7 +8344,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-6.0.4.10291
-    created: "2026-01-20T11:37:59.368542159Z"
+    created: "2026-01-20T13:41:34.2771608Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 136eb139f0231ec04d8723cc6cd9eb319e56c72309f8ffe4c3224e215db27c58
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8339,7 +8362,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.28.0.10274
-    created: "2026-01-20T11:37:57.760033768Z"
+    created: "2026-01-20T13:41:32.755474267Z"
     description: A Radarr Helm chart for Kubernetes
     digest: c70410d64a8e344d083dddbb2e656665215c5528bea352544d1e5458dee822d6
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8357,7 +8380,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.27.5.10198
-    created: "2026-01-20T11:37:57.589649463Z"
+    created: "2026-01-20T13:41:32.598192442Z"
     description: A Radarr Helm chart for Kubernetes
     digest: d06212a17fa6d4670e7f39288f5d01ceec892a61bfb2fd9a5eaadcacc4b88b02
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8375,7 +8398,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.26.2.10099
-    created: "2026-01-20T11:37:55.591744241Z"
+    created: "2026-01-20T13:41:32.440166909Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 8f1ea1c464e86a46ffbcaa4077d901a522aad335374a0286d7c7d791398cff1b
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8393,7 +8416,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.21.1.9799
-    created: "2026-01-20T11:37:55.272570496Z"
+    created: "2026-01-20T13:41:32.296870267Z"
     description: A Radarr Helm chart for Kubernetes
     digest: dfac1030433230fd7010a61c297c3aab69d1d87ef7d15cd69eba1bb01c28cb01
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8411,7 +8434,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.21.1.9799
-    created: "2026-01-20T11:37:55.111142239Z"
+    created: "2026-01-20T13:41:32.14973375Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 93f7abf5c5ef1a858cf152e9e51b76dab2e22688dff5200a233929aa6b547ae3
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8429,7 +8452,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.18.4.9674
-    created: "2026-01-20T11:37:54.954598935Z"
+    created: "2026-01-20T13:41:31.978575982Z"
     description: A Radarr Helm chart for Kubernetes
     digest: b0f0dff9e50585646e3b59328a0039d05524dc310ef7fa73b24acd73783dbcd8
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8447,7 +8470,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.17.2.9580
-    created: "2026-01-20T11:37:54.545133072Z"
+    created: "2026-01-20T13:41:31.827817926Z"
     description: A Radarr Helm chart for Kubernetes
     digest: a469e89e04c1a83f50143da706b1d51b6c0aa8bad96e5827c76f0a68f7bcbb94
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8465,7 +8488,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.14.0.9383
-    created: "2026-01-20T11:37:54.113338373Z"
+    created: "2026-01-20T13:41:31.665403782Z"
     description: A Radarr Helm chart for Kubernetes
     digest: e21529015387cd2ba44f09d559b6b9ff56f09387ba0a28ef883e45b570e68e62
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8483,7 +8506,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.12.2.9335
-    created: "2026-01-20T11:37:59.209933058Z"
+    created: "2026-01-20T13:41:34.10565536Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 0a19a6c971ad3199c4a35a497e8ed8907c28aca21ed4c276fde628c67e96b0e5
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8501,7 +8524,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.11.0.9244
-    created: "2026-01-20T11:37:59.046015585Z"
+    created: "2026-01-20T13:41:33.940962923Z"
     description: A Radarr Helm chart for Kubernetes
     digest: f02f215653809579359a68781426ad2abbc32de239e1b9c4c7b23f5c22fa7054
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8519,7 +8542,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.10.4.9218
-    created: "2026-01-20T11:37:58.885482777Z"
+    created: "2026-01-20T13:41:33.773272353Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 69c69fb0bcb2e22f188c6cebc41cc9d24b8e6956da90bdf9bed25ea062b99901
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8539,7 +8562,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.9.1.9070
-    created: "2026-01-20T11:37:58.70132404Z"
+    created: "2026-01-20T13:41:33.623252089Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 124b4c3e0ddc053888f001dc1c426e2b527a0ed4a55b9a738bde7df824f651a3
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8557,7 +8580,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.8.3.8933
-    created: "2026-01-20T11:37:58.443493139Z"
+    created: "2026-01-20T13:41:33.450697592Z"
     description: A Radarr Helm chart for Kubernetes
     digest: e904a15daea11ddcb077bb874392f263abacb35e48eaa6e7444d11a270dd92f0
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8575,7 +8598,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.6.0.8846
-    created: "2026-01-20T11:37:58.234542616Z"
+    created: "2026-01-20T13:41:33.24975285Z"
     description: A Radarr Helm chart for Kubernetes
     digest: d0532741e3f4b36cd56b4094f6fb94a5869c94a5b742d8a9f54d5c479b0ee8ba
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8593,7 +8616,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.3.6.8612
-    created: "2026-01-20T11:37:58.075209714Z"
+    created: "2026-01-20T13:41:33.071718909Z"
     description: A Radarr Helm chart for Kubernetes
     digest: c81bafde396c2875d80cfca26f898bdce99deee9aee48c5f5ffcb46e9d0ca08a
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8611,7 +8634,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.2.6.8376
-    created: "2026-01-20T11:37:57.92450979Z"
+    created: "2026-01-20T13:41:32.905996662Z"
     description: A Radarr Helm chart for Kubernetes
     digest: c1335b96ddfce43ab6c2de633a5166128c415e8e85ebe485bd002b2e66e91f58
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8629,7 +8652,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.1.3.8246
-    created: "2026-01-20T11:37:53.858506001Z"
+    created: "2026-01-20T13:41:31.512602934Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 2bad2fb45596d503ac5192432b9441e2364bb4a526276beaba70e52177b2a930
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8647,7 +8670,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-5.0.3.8127
-    created: "2026-01-20T11:37:53.594148955Z"
+    created: "2026-01-20T13:41:31.366785056Z"
     description: A Radarr Helm chart for Kubernetes
     digest: f25fa42e24413e1908f3e66fc53a31807564f6b00fac1f75ae14d85271ab3530
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8665,7 +8688,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-4.7.5.7809
-    created: "2026-01-20T11:37:53.312342681Z"
+    created: "2026-01-20T13:41:31.217976442Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 115633305b67eb79d24904f3b42b4d6279a445375d7d86d0eebd036f45e18adf
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8686,7 +8709,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-4.6.4.7568
-    created: "2026-01-20T11:37:53.050330341Z"
+    created: "2026-01-20T13:41:31.054071661Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 21ba82799b9a433d6e2e670cae951034fcf1c94176e00d5ea58259f9dd1dc7e4
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8707,7 +8730,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-4.4.4.7068
-    created: "2026-01-20T11:37:52.777329746Z"
+    created: "2026-01-20T13:41:30.901869441Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 55e619cb73528b7be8bec903c8195005338fb69ed468d6c734d41d9e0207e38b
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8730,7 +8753,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-4.3.2.6857
-    created: "2026-01-20T11:37:52.51727356Z"
+    created: "2026-01-20T13:41:30.748888133Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 61556c2d3af329fe6af0da3a1ddbcce31485b752ff2db3f686b01d8e6b0f3974
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8750,7 +8773,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/radarr
     apiVersion: v2
     appVersion: release-4.2.4.6635
-    created: "2026-01-20T11:37:52.183125081Z"
+    created: "2026-01-20T13:41:30.592873264Z"
     description: A Radarr Helm chart for Kubernetes
     digest: e1d534f341a09ccbe4464efe2aa8f683a87bb66cc3eac98ad7c93ec3b8d0b5d4
     icon: https://avatars.githubusercontent.com/u/25025331
@@ -8761,7 +8784,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: release-4.1.0.6175
-    created: "2026-01-20T11:37:51.912702276Z"
+    created: "2026-01-20T13:41:30.423660719Z"
     description: A Radarr Helm chart for Kubernetes
     digest: 6e1710c8472e0a248bb379ef382db551cd8695e19daf758c3958bc1ed4e2536e
     name: radarr
@@ -8779,7 +8802,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.16.2944
-    created: "2026-01-20T11:38:02.580669106Z"
+    created: "2026-01-20T13:41:37.539059663Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: f91356b604ee62796f73e9593833f70adf71f6ba73149f802992d2ef188ccf6d
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -8797,7 +8820,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.15.2941
-    created: "2026-01-20T11:38:02.437334058Z"
+    created: "2026-01-20T13:41:37.372372601Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: 791f2efacf72252c3464fc5c6da88ef1b5c4c544fdaa613e1b108a7dc48a16bd
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -8818,7 +8841,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.15.2941
-    created: "2026-01-20T11:38:02.283154967Z"
+    created: "2026-01-20T13:41:37.222055711Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: 0085aeb6effab5cbb09fdb311e3d16ae34083b64163d482665542fa31bf0dfd8
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -8839,7 +8862,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.14.2939
-    created: "2026-01-20T11:38:02.098203765Z"
+    created: "2026-01-20T13:41:37.062772831Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: be2c59da40d26d96ac3d585f29108dca306593c1e39553bfc7cde7313488b7d6
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -8862,7 +8885,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.14.2939
-    created: "2026-01-20T11:38:01.950101513Z"
+    created: "2026-01-20T13:41:36.910233578Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: be475eb2a25591fbb7a958785a0eea390dc90e69140cd6d511639932ec5f84a7
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -8885,7 +8908,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.10.2544
-    created: "2026-01-20T11:38:01.777925485Z"
+    created: "2026-01-20T13:41:36.765477346Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: 4e403234d30bdd075fba46594521887b08ea78ef2a1a42b54fa92771b2f1546f
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -8908,7 +8931,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.9.2244
-    created: "2026-01-20T11:38:01.568552007Z"
+    created: "2026-01-20T13:41:36.617557878Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: fcd80280639518b5933c94d8350c3763382884683382a6bdc3f381fea7f7259d
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -8929,7 +8952,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.8.1874
-    created: "2026-01-20T11:38:01.393526965Z"
+    created: "2026-01-20T13:41:36.463053249Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: 0cda6c8f4c770f07fbc556fe0bfab8d586820fe5b92f2f7cd4dc60440fc7228f
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -8950,7 +8973,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.5.1710
-    created: "2026-01-20T11:38:01.231249999Z"
+    created: "2026-01-20T13:41:36.304464997Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: aeaf7787ae1a3ef4a2fec5394905110e1547df5bc66a269f719bd8304e57feb8
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -8971,7 +8994,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.4.1491
-    created: "2026-01-20T11:38:01.069934377Z"
+    created: "2026-01-20T13:41:36.156567805Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: ae6ccd7a83df547fc8d8457150ec3527039c29bde8d5fd0aa182cbf0db91f251
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -8992,7 +9015,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.3.1413
-    created: "2026-01-20T11:38:00.906864108Z"
+    created: "2026-01-20T13:41:35.991877016Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: 87088a1c53f9fce70dcb2b6ccbf19bf12520111bbd7ea48359316107e126cf31
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -9013,7 +9036,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.2.1183
-    created: "2026-01-20T11:38:00.747750364Z"
+    created: "2026-01-20T13:41:35.783144522Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: a803db07fad90ea4dfd0effc8f22528179282a0e523c2f159dec4dc98bb75fa9
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -9034,7 +9057,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.1.929
-    created: "2026-01-20T11:38:00.59418311Z"
+    created: "2026-01-20T13:41:35.617738584Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: 7fe7d0548f5f3ed045a38584e29595fb2954d3b75f5df23665398aad121a1ec9
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -9055,7 +9078,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-4.0.0.748
-    created: "2026-01-20T11:38:00.440444284Z"
+    created: "2026-01-20T13:41:35.438093254Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: c62b9875c02f08f16288346c2e6e5fdc15a681da35a68c171b5b81e7e066d57a
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -9076,7 +9099,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-3.0.10.1567
-    created: "2026-01-20T11:38:00.309324291Z"
+    created: "2026-01-20T13:41:35.254637797Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: 2687b5429c059f1bdb64fb5bfff6ddee56588bd2bfe40ed219bf73f96e32569b
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -9097,7 +9120,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-3.0.10.1566
-    created: "2026-01-20T11:38:00.144820262Z"
+    created: "2026-01-20T13:41:35.086960742Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: e73441c55579eabcd6940064b27a651bc8408f7c7c533e5ee7c8eeaa41b2c644
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -9120,7 +9143,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-3.0.10.1566
-    created: "2026-01-20T11:37:59.989607114Z"
+    created: "2026-01-20T13:41:34.92793653Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: 66b44ecb599250d9f5ca39e6a73a58528924e0ffe3c762e83c159c5b33840e4c
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -9141,7 +9164,7 @@ entries:
           url: https://gitlab.com/alexander-chernov/helm/sonarr
     apiVersion: v2
     appVersion: release-3.0.9.1549
-    created: "2026-01-20T11:37:59.841226883Z"
+    created: "2026-01-20T13:41:34.771254186Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: c3f19782626b61578c50fea2ee0280c1d2ab391a30aee3a9047a903729b7a377
     icon: https://avatars.githubusercontent.com/u/1082903
@@ -9152,7 +9175,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: nightly-3.0.8.1520
-    created: "2026-01-20T11:37:59.684534133Z"
+    created: "2026-01-20T13:41:34.61055866Z"
     description: A Sonarr Helm chart for Kubernetes
     digest: e02b127f3f7ff548ef016bb6aa6831c8dba608fbe68b595ffa03d2432c329c50
     name: sonarr
@@ -9178,7 +9201,7 @@ entries:
           email: alexander@chernov.it
     apiVersion: v2
     appVersion: v3.5.4
-    created: "2026-01-20T11:38:03.070452003Z"
+    created: "2026-01-20T13:41:38.037240469Z"
     description: A Helm chart for Speedtest-cli exporter
     digest: 692cef1639f187158d7a2e2532bd58b6eee1f2e5448eea5ad7f2f6a3df9764ee
     icon: https://www.speedtest.net/s/images/ookla/index/gauge-blue-1x.png
@@ -9211,7 +9234,7 @@ entries:
           email: alexander@chernov.it
     apiVersion: v2
     appVersion: v3.5.4
-    created: "2026-01-20T11:38:02.911985291Z"
+    created: "2026-01-20T13:41:37.881336347Z"
     description: A Helm chart for Speedtest-cli exporter
     digest: 7ff55e891d7876d02ea17cce8bfbe80242e21a8f25d555bd3d61433278acd9f8
     icon: https://www.speedtest.net/s/images/ookla/index/gauge-blue-1x.png
@@ -9244,7 +9267,7 @@ entries:
           email: alexander@chernov.it
     apiVersion: v2
     appVersion: v3.5.3
-    created: "2026-01-20T11:38:02.748244047Z"
+    created: "2026-01-20T13:41:37.718058152Z"
     description: A Helm chart for Speedtest-cli exporter
     digest: c0d2e680e3f47f1aa80415438075eb42909ff9f03ead5f46d35074bc7f4c9a87
     icon: https://www.speedtest.net/s/images/ookla/index/gauge-blue-1x.png
@@ -9264,7 +9287,7 @@ entries:
   zzz:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-01-20T11:38:03.225210423Z"
+    created: "2026-01-20T13:41:38.186387134Z"
     description: A Helm chart for Kubernetes
     digest: f534948b27f58164674933ac86e82f87856fcb1aa2b16f0c4650332795100b8c
     name: zzz
@@ -9272,4 +9295,4 @@ entries:
     urls:
     - zzz-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-20T11:36:40.521265283Z"
+generated: "2026-01-20T13:40:28.510029802Z"
